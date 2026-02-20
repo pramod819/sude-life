@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_corp_dynamic_c13s",
+  "info": {
+    "displayName": "[C13] Goals",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "bgimage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "bgcolor": {
+      "type": "string"
+    },
+    "goalCard": {
+      "displayName": "goal-card",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c13-goal-card"
+    },
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    }
+  }
+}

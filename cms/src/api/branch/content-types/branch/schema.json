@@ -1,0 +1,61 @@
+{
+    "kind": "collectionType",
+    "collectionName": "branches",
+    "info": {
+        "singularName": "branch",
+        "pluralName": "branches",
+        "displayName": "Branch",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true,
+            "unique": true
+        },
+        "slug": {
+            "type": "string",
+            "unique": true
+        },
+        "address": {
+            "type": "text",
+            "required": true
+        },
+        "district": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::district.district"
+        },
+        "locality": {
+            "type": "string",
+            "required": true
+        },
+        "coordinates": {
+            "type": "component",
+            "repeatable": false,
+            "component": "corp-dynamic.branch-coordinates"
+        },
+        "banner": {
+            "type": "component",
+            "repeatable": false,
+            "component": "corp-dynamic.branch-banner"
+        },
+        "amenities": {
+            "type": "component",
+            "repeatable": true,
+            "component": "corp-dynamic.branch-amenity"
+        },
+        "amenitiesTitle": {
+            "type": "string"
+        },
+        "amenitiesBgImage": {
+            "type": "component",
+            "repeatable": false,
+            "component": "common.media-img"
+        }
+    }
+}

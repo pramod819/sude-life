@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_corp_subcomponent_step_to_pays",
+  "info": {
+    "displayName": "step-to-pay"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

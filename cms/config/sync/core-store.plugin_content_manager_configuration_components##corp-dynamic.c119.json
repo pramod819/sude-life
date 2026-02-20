@@ -1,0 +1,118 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-dynamic.c119",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "btnText",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "shortDescription": {
+        "edit": {
+          "label": "Short Description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Short Description",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "topics": {
+        "edit": {
+          "label": "Topics",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "title"
+        },
+        "list": {
+          "label": "Topics",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "btnText": {
+        "edit": {
+          "label": "Button Text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Button Text",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "title",
+        "shortDescription",
+        "topics"
+      ],
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "shortDescription",
+            "size": 6
+          },
+          {
+            "name": "topics",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "btnText",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "corp-dynamic.c119",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

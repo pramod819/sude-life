@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_corp_subcomponent_c113_l1_label_packs",
+  "info": {
+    "displayName": "C113-l1-labelPack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Business Unit",
+        "Location",
+        "Find Best Opportunity Button",
+        "Apply Button",
+        "Show More Button"
+      ],
+      "required": true
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

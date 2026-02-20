@@ -1,0 +1,99 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-dynamic.c104",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "backgroundImage": {
+        "edit": {
+          "label": "Background Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Background Image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "blog_category": {
+        "edit": {
+          "label": "Blog Category",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "Blog Category",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "labelPack": {
+        "edit": {
+          "label": "Label Pack",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Label Pack",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "backgroundImage",
+        "labelPack"
+      ],
+      "edit": [
+        [
+          {
+            "name": "backgroundImage",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "blog_category",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "labelPack",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "uid": "corp-dynamic.c104",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

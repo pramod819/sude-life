@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_corp_dynamic_c124s",
+  "info": {
+    "displayName": "[C124] - Global search"
+  },
+  "options": {},
+  "attributes": {
+    "navigationId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "searchPlaceholder": {
+      "type": "string"
+    },
+    "buttonLabel": {
+      "type": "string"
+    }
+  }
+}

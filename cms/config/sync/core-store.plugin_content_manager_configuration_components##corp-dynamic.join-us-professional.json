@@ -1,0 +1,119 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-dynamic.join-us-professional",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "navigationId",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "formList": {
+        "edit": {
+          "label": "Form List",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Form List",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "labelPack": {
+        "edit": {
+          "label": "Label Pack",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Label Pack",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "navigationId": {
+        "edit": {
+          "label": "Navigation Id",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Navigation Id",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "formList",
+        "title",
+        "navigationId"
+      ],
+      "edit": [
+        [
+          {
+            "name": "navigationId",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "formList",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "labelPack",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "uid": "corp-dynamic.join-us-professional",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

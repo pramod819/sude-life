@@ -1,0 +1,99 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-subcomponent.c23document-list",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "documentName",
+      "defaultSortBy": "documentName",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "documentName": {
+        "edit": {
+          "label": "Document Name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "documentName",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "document": {
+        "edit": {
+          "label": "Document",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "document",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "info": {
+        "edit": {
+          "label": "Document Info",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "info",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "documentName",
+        "document",
+        "info"
+      ],
+      "edit": [
+        [
+          {
+            "name": "documentName",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "document",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "info",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "uid": "corp-subcomponent.c23document-list",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

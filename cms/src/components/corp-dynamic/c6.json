@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_corp_dynamic_c6s",
+  "info": {
+    "displayName": "[C6] - Card Components",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "card": {
+      "displayName": "Card",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c6card"
+    }
+  }
+}

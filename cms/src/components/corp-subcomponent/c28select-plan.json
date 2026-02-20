@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_corp_subcomponent_c28select_plans",
+  "info": {
+    "displayName": "c28 Select Plan"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

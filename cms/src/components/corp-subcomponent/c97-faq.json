@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_corp_subcomponent_c97_faqs",
+  "info": {
+    "displayName": "c97-faq"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text"
+    },
+    "answer": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

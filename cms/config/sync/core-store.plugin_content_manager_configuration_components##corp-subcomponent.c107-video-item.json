@@ -1,0 +1,97 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-subcomponent.c107-video-item",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "videoTitle",
+      "defaultSortBy": "videoTitle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "video": {
+        "edit": {
+          "label": "Video",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Video",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "videoTitle": {
+        "edit": {
+          "label": "Video Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Video Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "image": {
+        "edit": {
+          "label": "Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Image",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "video",
+        "videoTitle",
+        "image"
+      ],
+      "edit": [
+        [
+          {
+            "name": "video",
+            "size": 6
+          },
+          {
+            "name": "videoTitle",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "image",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "uid": "corp-subcomponent.c107-video-item",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

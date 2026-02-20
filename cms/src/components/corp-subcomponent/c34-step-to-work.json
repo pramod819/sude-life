@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_corp_subcomponent_c34_step_to_works",
+  "info": {
+    "displayName": "c34-step-to-work"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    }
+  }
+}

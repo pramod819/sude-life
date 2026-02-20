@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_cmn_media_imgs",
+  "info": {
+    "displayName": "Media Image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "img_dsk": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "img_mbl": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

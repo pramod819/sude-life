@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_corp_subcomponent_c2_other_links",
+  "info": {
+    "displayName": "C2-OtherLinks"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.cta",
+      "max": 20
+    }
+  }
+}

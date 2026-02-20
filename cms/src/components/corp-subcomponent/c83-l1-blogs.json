@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_corp_subcomponent_c83_l1_blogs",
+  "info": {
+    "displayName": "C83-l1-blogs"
+  },
+  "options": {},
+  "attributes": {
+    "blog": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::blog.blog"
+    }
+  }
+}

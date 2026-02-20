@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_corp_dynamic_c100s",
+  "info": {
+    "displayName": "[C100] - Simple Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "subTitle": {
+      "type": "text"
+    },
+    "bgImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.cta",
+      "max": 2
+    },
+    "navigationId": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "integer",
+      "max": 5
+    },
+    "tags": {
+      "type": "string"
+    }
+  }
+}

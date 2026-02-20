@@ -1,0 +1,7 @@
+/node_modules
+/.cache
+/.yarn
+/.yarncache
+/.api-mock
+/build
+/docs

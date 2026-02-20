@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_corp_dynamic_contactuses",
+  "info": {
+    "displayName": "[Form] Contact Us",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "bgImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "formTitle": {
+      "type": "string"
+    },
+    "labelPack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.labelpack-contactus"
+    }
+  }
+}

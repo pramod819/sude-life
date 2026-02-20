@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_corp_subcomponent_c90_l3_table_headings",
+  "info": {
+    "displayName": "c90-l3-table-heading"
+  },
+  "options": {},
+  "attributes": {
+    "columnOne": {
+      "type": "string",
+      "required": true
+    },
+    "columnTwo": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

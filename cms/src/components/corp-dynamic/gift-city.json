@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_corp_dynamic_gift_cities",
+  "info": {
+    "displayName": "[Form] Gift city",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": false
+    },
+    "bulletPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.giftcity-bullet-points",
+      "max": 8
+    },
+    "bgImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "formTitle": {
+      "type": "string"
+    },
+    "labelPack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.giftcity-label-pack"
+    },
+    "bgColour": {
+      "type": "string"
+    },
+    "bulletPointsOverlayColour": {
+      "type": "string"
+    },
+    "accepted_countries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::country.country"
+    }
+  }
+}

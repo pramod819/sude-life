@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_corp_subcomponent_c128_year_values",
+  "info": {
+    "displayName": "[C128] - year value"
+  },
+  "options": {},
+  "attributes": {
+    "FY": {
+      "type": "string"
+    },
+    "value": {
+      "type": "decimal"
+    }
+  }
+}

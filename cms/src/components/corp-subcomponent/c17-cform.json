@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_corp_subcomponent_c17_cforms",
+  "info": {
+    "displayName": "C17-cform"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    }
+  }
+}

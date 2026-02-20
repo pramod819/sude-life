@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_corp_dynamic_c24s",
+  "info": {
+    "displayName": "[C24] - Text and Image (How to avoid claim Rejection)",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags",
+      "required": true
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img",
+      "required": true
+    },
+    "avoidRejection": {
+      "displayName": "c24-avoidRejection",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c24-avoid-rejection",
+      "min": 3,
+      "max": 6,
+      "required": true
+    }
+  }
+}

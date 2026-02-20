@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_corp_subcomponent_c92_cards",
+  "info": {
+    "displayName": "c92-cards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "cardTitle": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "richtext"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "fontColour": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_corp_dynamic_media_image_types",
+  "info": {
+    "displayName": "[Media] image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "thumbnail": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "common.media-img"
+    },
+    "gallery": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.media-image-gallery"
+    },
+    "displayDate": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

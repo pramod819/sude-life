@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_corp_subcomponent_c1_l2_links",
+  "info": {
+    "displayName": "c1-l2-link"
+  },
+  "options": {},
+  "attributes": {
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c1-l3"
+    }
+  }
+}

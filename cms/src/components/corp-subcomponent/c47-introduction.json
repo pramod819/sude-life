@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_corp_subcomponent_c47_introductions",
+  "info": {
+    "displayName": "c47-introduction"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

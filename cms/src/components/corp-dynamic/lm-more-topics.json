@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_corp_dynamic_lm_more_topics",
+  "info": {
+    "displayName": "[LM] More Topics",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    }
+  }
+}

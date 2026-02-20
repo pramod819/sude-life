@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_corp_dynamic_media_type_videos",
+  "info": {
+    "displayName": "[Media] Video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "youtubeLink": {
+      "type": "string",
+      "required": true
+    },
+    "displayDate": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

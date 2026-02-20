@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_corp_dynamic_c111s",
+  "info": {
+    "displayName": "[C111] - Meet the team"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "bgImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "people": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::people.people"
+    }
+  }
+}

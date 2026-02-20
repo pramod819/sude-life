@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_corp_subcomponent_c114_l2_benefits",
+  "info": {
+    "displayName": "C114-l2-benefit"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "benefit": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

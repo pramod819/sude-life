@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_corp_dynamic_c43s",
+  "info": {
+    "displayName": "[C43] - Branch Locator"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "labelPack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c43-l1-label-pack"
+    },
+    "navigationId": {
+      "type": "string"
+    }
+  }
+}

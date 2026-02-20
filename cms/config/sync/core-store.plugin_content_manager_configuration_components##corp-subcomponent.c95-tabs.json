@@ -1,0 +1,119 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-subcomponent.c95-tabs",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "title",
+      "defaultSortBy": "title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "financial_year": {
+        "edit": {
+          "label": "Financial Year",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Financial Year",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "uncliamed": {
+        "edit": {
+          "label": "Uncliamed",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Uncliamed",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "governance": {
+        "edit": {
+          "label": "Governance",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Governance",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "title",
+        "financial_year",
+        "uncliamed"
+      ],
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "financial_year",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "uncliamed",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "governance",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "uid": "corp-subcomponent.c95-tabs",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

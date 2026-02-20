@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_corp_dynamic_c33s",
+  "info": {
+    "displayName": "[C33] - Learn about plan",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "media": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c33-l1-media",
+      "max": 8
+    },
+    "subTitle": {
+      "type": "string"
+    }
+  }
+}

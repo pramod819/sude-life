@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_corp_subcomponent_coi_download_label_packs",
+  "info": {
+    "displayName": "coiDownload-LabelPack"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "form_name",
+        "dob_label",
+        "dob_placeholder",
+        "mobile_label",
+        "mobile_placeholder",
+        "lan_label",
+        "lan_placeholder",
+        "otpScreen_title",
+        "otpScreen_subtitle",
+        "otpScreen_helpText",
+        "otpVerify_btn",
+        "otpSuccess_message",
+        "downloadScreen_title",
+        "downloadScreen_subtitle",
+        "downloadScreen_lan",
+        "downloadScreen_viewLinkText",
+        "downloadScreen_backbtn",
+        "backBtn_label",
+        "proceedBtn_label",
+        "error_message"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

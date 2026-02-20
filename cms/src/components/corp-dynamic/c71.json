@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_corp_dynamic_c71s",
+  "info": {
+    "displayName": "[C71] - Center aligned Text & Image banner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags",
+      "required": true
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "bgColour": {
+      "type": "string",
+      "required": false
+    },
+    "bgImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    }
+  }
+}

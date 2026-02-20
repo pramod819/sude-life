@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_corp_dynamic_c51s",
+  "info": {
+    "displayName": "[C51] - Steps to buy online"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c51-l1-tab"
+    }
+  }
+}

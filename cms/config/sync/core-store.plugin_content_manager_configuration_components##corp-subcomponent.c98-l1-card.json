@@ -1,0 +1,76 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-subcomponent.c98-l1-card",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "documentTitle",
+      "defaultSortBy": "documentTitle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "documentTitle": {
+        "edit": {
+          "label": "Document Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Document Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "document": {
+        "edit": {
+          "label": "Document",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Document",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "documentTitle",
+        "document"
+      ],
+      "edit": [
+        [
+          {
+            "name": "documentTitle",
+            "size": 6
+          },
+          {
+            "name": "document",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "corp-subcomponent.c98-l1-card",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

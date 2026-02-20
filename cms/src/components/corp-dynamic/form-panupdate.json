@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_corp_dynamic_form_panupdates",
+  "info": {
+    "displayName": "[Form] PAN Update",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "displayName": "Title",
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "label_pack": {
+      "displayName": "Label Pack",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.labelpack-panupdate"
+    }
+  }
+}

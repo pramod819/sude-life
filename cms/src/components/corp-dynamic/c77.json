@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_corp_dynamic_c77s",
+  "info": {
+    "displayName": "[C77] - Rotating Scrollable Cards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c77-l1-card",
+      "max": 10
+    }
+  }
+}

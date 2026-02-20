@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_corp_subcomponent_c65_l1_points",
+  "info": {
+    "displayName": "c65-l1-points"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

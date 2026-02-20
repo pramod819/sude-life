@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_corp_subcomponent_c2_menus",
+  "info": {
+    "displayName": "C2-Menu",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "menuItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.cta"
+    }
+  }
+}

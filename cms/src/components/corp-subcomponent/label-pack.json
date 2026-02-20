@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_corp_subcomponent_label_packs",
+  "info": {
+    "displayName": "labelPack"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "View",
+        "Download"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

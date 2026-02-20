@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_corp_subcomponent_c95_documents",
+  "info": {
+    "displayName": "c95-documents"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "upload": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

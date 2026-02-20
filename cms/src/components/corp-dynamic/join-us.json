@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_corp_dynamic_join_uses",
+  "info": {
+    "displayName": "[Form] Join Us",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "bulletPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.joinus-bullet-points",
+      "max": 8
+    },
+    "bgImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "formTitle": {
+      "type": "string"
+    },
+    "labelPack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.joinus-label-pack"
+    },
+    "bgColour": {
+      "type": "string"
+    },
+    "bulletPointsOverlayColour": {
+      "type": "string"
+    }
+  }
+}

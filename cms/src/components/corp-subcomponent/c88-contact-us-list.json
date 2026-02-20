@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_corp_subcomponent_c88_contact_us_lists",
+  "info": {
+    "displayName": "c88-contact-us-list"
+  },
+  "options": {},
+  "attributes": {
+    "designation": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "address": {
+      "type": "richtext"
+    },
+    "email": {
+      "type": "string"
+    },
+    "contactNumber": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    }
+  }
+}

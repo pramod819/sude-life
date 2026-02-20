@@ -1,0 +1,59 @@
+{
+  "collectionName": "components_corp_subcomponent_lm_cards",
+  "info": {
+    "displayName": "lm-l1-cards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cardVariation": {
+      "type": "enumeration",
+      "enum": [
+        "simple_text",
+        "simple_text_with_image",
+        "image",
+        "quote_on_image",
+        "full_width"
+      ]
+    },
+    "cardColour": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "imagePosition": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "bottom"
+      ],
+      "default": "left",
+      "required": true
+    },
+    "quote": {
+      "type": "string"
+    },
+    "fontColour": {
+      "type": "string"
+    },
+    "numberBgColour": {
+      "type": "string"
+    }
+  }
+}

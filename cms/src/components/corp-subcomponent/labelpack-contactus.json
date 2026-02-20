@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_corp_subcomponent_labelpack_contactuses",
+  "info": {
+    "displayName": "labelpack-contactus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "name",
+        "email",
+        "mobile",
+        "subject",
+        "message",
+        "spam",
+        "button",
+        "success"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

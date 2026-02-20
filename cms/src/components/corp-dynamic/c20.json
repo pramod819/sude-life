@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_corp_dynamic_c20s",
+  "info": {
+    "displayName": "[C20] - Steps to Buy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "overlapTitle": {
+      "type": "string"
+    },
+    "overlapBackgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.cta",
+      "max": 2
+    },
+    "stepToBuy": {
+      "displayName": "step-to-pay",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.step-to-pay",
+      "max": 16
+    },
+    "subTitle": {
+      "type": "richtext"
+    },
+    "bulletPointTitle": {
+      "type": "string"
+    },
+    "bulletPoints": {
+      "displayName": "Bullet Points",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c20-bullet-points"
+    }
+  }
+}

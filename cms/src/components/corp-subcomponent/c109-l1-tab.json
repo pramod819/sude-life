@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_corp_subcomponent_c109_l1_tabs",
+  "info": {
+    "displayName": "C109-l1-tab"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": false
+    },
+    "active": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

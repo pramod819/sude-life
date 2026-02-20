@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_corp_dynamic_c118s",
+  "info": {
+    "displayName": "[C118] - Navigation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "navigationItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c118-l1-item"
+    }
+  }
+}

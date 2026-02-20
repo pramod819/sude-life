@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_corp_dynamic_c89s",
+  "info": {
+    "displayName": "[C89] - Gallery Component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "variation": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "careers_page"
+      ],
+      "default": "default",
+      "required": true
+    },
+    "tag": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::image-gallery-tag.image-gallery-tag"
+    },
+    "navigationId": {
+      "type": "string"
+    }
+  }
+}

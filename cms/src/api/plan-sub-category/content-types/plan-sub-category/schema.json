@@ -1,0 +1,25 @@
+{
+    "kind": "collectionType",
+    "collectionName": "plan_sub_categories",
+    "info": {
+        "singularName": "plan-sub-category",
+        "pluralName": "plan-sub-categories",
+        "displayName": "Plan Sub Category",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "parent": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::plan-category.plan-category"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "kind": "collectionType",
+    "collectionName": "blog_categories",
+    "info": {
+        "singularName": "blog-category",
+        "pluralName": "blog-categories",
+        "displayName": "Blog Category",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string"
+        },
+        "icon": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": ["images", "files", "videos", "audios"]
+        },
+        "categoryPage": {
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_corp_dynamic_media_type_links",
+  "info": {
+    "displayName": "[Media] link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "displayDate": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

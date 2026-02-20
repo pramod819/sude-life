@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_corp_subcomponent_join_us_prof_bullet_points",
+  "info": {
+    "displayName": "join-us-prof-bullet-point"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

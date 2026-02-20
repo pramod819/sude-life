@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_corp_subcomponent_c104_label_packs",
+  "info": {
+    "displayName": "c104-label-pack"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Read Article",
+        "Min Read"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

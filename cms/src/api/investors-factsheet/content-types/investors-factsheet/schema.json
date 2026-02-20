@@ -1,0 +1,27 @@
+{
+    "kind": "collectionType",
+    "collectionName": "investors_factsheets",
+    "info": {
+        "singularName": "investors-factsheet",
+        "pluralName": "investors-factsheets",
+        "displayName": "Investors Factsheet"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "document_name": {
+            "type": "string"
+        },
+        "dacument_date": {
+            "type": "date"
+        },
+        "document": {
+            "allowedTypes": ["files"],
+            "type": "media",
+            "multiple": false,
+            "required": true
+        }
+    }
+}

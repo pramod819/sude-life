@@ -1,0 +1,58 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-subcomponent.c83-l1-blogs",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "blog": {
+        "edit": {
+          "label": "Blog",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "path"
+        },
+        "list": {
+          "label": "Blog",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "blog"
+      ],
+      "edit": [
+        [
+          {
+            "name": "blog",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "corp-subcomponent.c83-l1-blogs",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

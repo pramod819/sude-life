@@ -1,0 +1,327 @@
+{
+  "documentId": "agm92enjvrzbsfsnrr07fh02",
+  "name": "Fund Manager",
+  "code": "fund-manager-manrg3ug",
+  "description": "A fund manager to manage fund-related activities",
+  "locale": null,
+  "permissions": [
+    {
+      "documentId": "weyg077005a09xptmo0d292j",
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::fund-nav-upload.fund-nav-upload",
+      "properties": {
+        "fields": [
+          "upload",
+          "date"
+        ]
+      },
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "zyofad3yvf96o0u3kpt4l6ah",
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::fund-nav-upload.fund-nav-upload",
+      "properties": {},
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "rb9abovtf99l35126zacsd2g",
+      "action": "plugin::content-manager.explorer.publish",
+      "actionParameters": {},
+      "subject": "api::fund-nav-upload.fund-nav-upload",
+      "properties": {},
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "emev32nra2b8k4hh9k63gp76",
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::fund-nav-upload.fund-nav-upload",
+      "properties": {
+        "fields": [
+          "upload",
+          "date"
+        ]
+      },
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "ddcw785yeude836fg6hz4j18",
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::fund-nav-upload.fund-nav-upload",
+      "properties": {
+        "fields": [
+          "upload",
+          "date"
+        ]
+      },
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "enqsldge8uzr3hv2kwtpph31",
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::fund-nav.fund-nav",
+      "properties": {
+        "fields": [
+          "title",
+          "nav",
+          "date",
+          "fund"
+        ]
+      },
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "ste7eyxp2d0ftttnkfth15cg",
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::fund-nav.fund-nav",
+      "properties": {},
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "le34xk5e7f7cp701xdogzja3",
+      "action": "plugin::content-manager.explorer.publish",
+      "actionParameters": {},
+      "subject": "api::fund-nav.fund-nav",
+      "properties": {},
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "n096ihs1yganhbi3wfj9u78v",
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::fund-nav.fund-nav",
+      "properties": {
+        "fields": [
+          "title",
+          "nav",
+          "date",
+          "fund"
+        ]
+      },
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "hb6xrowoh5frm0flp74jo1hr",
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::fund-nav.fund-nav",
+      "properties": {
+        "fields": [
+          "title",
+          "nav",
+          "date",
+          "fund"
+        ]
+      },
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "tjkv3ky7yvcd5os7t6irz1go",
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::fund.fund",
+      "properties": {
+        "fields": [
+          "title",
+          "color",
+          "fund_db",
+          "fund_sud",
+          "SFIN",
+          "code",
+          "display_name",
+          "nav_products",
+          "pdf"
+        ]
+      },
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "g0ihyvew2bvbn5iy2rv6qhqv",
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::fund.fund",
+      "properties": {},
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "ig374o1fn6r8lx1zwqj6ahzv",
+      "action": "plugin::content-manager.explorer.publish",
+      "actionParameters": {},
+      "subject": "api::fund.fund",
+      "properties": {},
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "uqjh5wi60wtybyro9fy6m3pt",
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::fund.fund",
+      "properties": {
+        "fields": [
+          "title",
+          "color",
+          "fund_db",
+          "fund_sud",
+          "SFIN",
+          "code",
+          "display_name",
+          "nav_products",
+          "pdf"
+        ]
+      },
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "g57hsxec4kisnm5f1er25ged",
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::fund.fund",
+      "properties": {
+        "fields": [
+          "title",
+          "color",
+          "fund_db",
+          "fund_sud",
+          "SFIN",
+          "code",
+          "display_name",
+          "nav_products",
+          "pdf"
+        ]
+      },
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "nn9uykhc82c0n7u38f3j6b6h",
+      "action": "plugin::content-manager.explorer.create",
+      "actionParameters": {},
+      "subject": "api::nav-product.nav-product",
+      "properties": {
+        "fields": [
+          "title"
+        ]
+      },
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "f6ix3qadc75pw0h8l9m38xnc",
+      "action": "plugin::content-manager.explorer.delete",
+      "actionParameters": {},
+      "subject": "api::nav-product.nav-product",
+      "properties": {},
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "zh29cyjn74drb4zjt370njsn",
+      "action": "plugin::content-manager.explorer.publish",
+      "actionParameters": {},
+      "subject": "api::nav-product.nav-product",
+      "properties": {},
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "nin1ypsqchgj5btd8ewdwhma",
+      "action": "plugin::content-manager.explorer.read",
+      "actionParameters": {},
+      "subject": "api::nav-product.nav-product",
+      "properties": {
+        "fields": [
+          "title"
+        ]
+      },
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "zd1a3tzgn7naj7t8bjku3fbi",
+      "action": "plugin::content-manager.explorer.update",
+      "actionParameters": {},
+      "subject": "api::nav-product.nav-product",
+      "properties": {
+        "fields": [
+          "title"
+        ]
+      },
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "rmiotr64kxakwr57u1ncw6t3",
+      "action": "plugin::upload.assets.copy-link",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "uhkq56ghqzrqr1bj8ydb1lsp",
+      "action": "plugin::upload.assets.create",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "rkrypha21qu22wfmiks78ho7",
+      "action": "plugin::upload.assets.download",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "lvyjrrkwm078crxnf055arma",
+      "action": "plugin::upload.assets.update",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "x1ah6q06mdzxu6zfx08z70d8",
+      "action": "plugin::upload.configure-view",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": [],
+      "locale": null
+    },
+    {
+      "documentId": "o86d6hcf1fyd1wrurckq51eh",
+      "action": "plugin::upload.read",
+      "actionParameters": {},
+      "subject": null,
+      "properties": {},
+      "conditions": [],
+      "locale": null
+    }
+  ]
+}

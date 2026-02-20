@@ -1,0 +1,129 @@
+@import './media-queries';
+@import './colors.scss';
+html {
+    font-size: 10px;
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+    font-family: 'Mulish', sans-serif;
+    font-size: 10px;
+    color: $black;
+    padding-top: 10rem;
+    @include mobile-only {
+        padding-top: 9rem;
+    }
+    &.modal {
+        overflow: hidden;
+    }
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container-fluid {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container-pad {
+    max-width: 146.6rem;
+    padding: 0 5rem;
+    margin: 0 auto;
+    @include up-to-large-tablet {
+        padding: 0 2rem;
+    }
+}
+
+.container {
+    max-width: 128rem;
+    margin: 0 auto;
+    @include up-to-large-tablet {
+        padding: 0 20px;
+    }
+}
+
+.main-container {
+    max-width: 132rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0 auto;
+    @include up-to-large-tablet {
+        padding: 0 20px;
+    }
+}
+
+.sub-container {
+    max-width: 106rem;
+    margin: 0 auto;
+    @include up-to-large-tablet {
+        padding: 0 20px;
+    }
+}
+
+.icon {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    margin-left: 5px;
+}
+
+.MuiContainer-root {
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+:focus-visible {
+    outline: 2px solid -webkit-focus-ring-color !important;
+    border-radius: 1px;
+}
+
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+    outline: 2px solid #2196f3 !important;
+    outline-offset: 2px;
+}
+
+body:has(.tabbed-menus) .header {
+    border-radius: 0 !important;
+}
+
+.button-border {
+    border: 2px solid #2196f3 !important;
+    background: #fff !important;
+    color: #2196f3 !important;
+    &:hover {
+        box-shadow: rgba(36, 116, 185, 0.28) 0px 2px 16px !important;
+    }
+    span {
+        color: #2196f3 !important;
+    }
+}

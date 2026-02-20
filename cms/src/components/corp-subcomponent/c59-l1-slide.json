@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_corp_subcomponent_c59_l1_slides",
+  "info": {
+    "displayName": "c59-l1-slide"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img",
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.cta",
+      "max": 4
+    }
+  }
+}

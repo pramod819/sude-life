@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_corp_dynamic_c14s",
+  "info": {
+    "displayName": "[C14] Introduction"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "introcard": {
+      "displayName": "intro-card",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c14-card",
+      "max": 3
+    }
+  }
+}

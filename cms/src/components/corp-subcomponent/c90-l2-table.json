@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_corp_subcomponent_c90_l2_tables",
+  "info": {
+    "displayName": "C90-l2-table"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "tableHeader": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corp-subcomponent.c90-l3-table-heading"
+    },
+    "rowData": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c90-l3-table-data"
+    }
+  }
+}

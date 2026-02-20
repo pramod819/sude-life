@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_corp_subcomponent_labelpack_payments",
+  "info": {
+    "displayName": "labelpack-payment"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Screen 1 Info Text",
+        "Screen 2 Info Text",
+        "Option Policy Text",
+        "Option Mobile Text",
+        "Option Email Text",
+        "Option Field Label",
+        "Date of Birth Field Label",
+        "Submit Button1 Text",
+        "Submit Button2 Text",
+        "Back Button text",
+        "Date of Birth Field Placeholder",
+        "Policy Placeholder",
+        "Mobile Placeholder",
+        "Email Placeholder",
+        "Policy Status Label",
+        "Payment Frequency Label",
+        "Due Date Label",
+        "Installment Label",
+        "Deposit Label",
+        "Amount Label",
+        "Sum Label",
+        "Success Title",
+        "Success text",
+        "Success Info"
+      ],
+      "required": true
+    }
+  }
+}

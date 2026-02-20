@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_corp_dynamic_c37s",
+  "info": {
+    "displayName": "[C37]- About SUD Life",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img",
+      "required": true
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c37-l1-item",
+      "max": 5 
+    }
+  }
+}

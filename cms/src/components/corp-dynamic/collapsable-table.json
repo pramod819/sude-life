@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_corp_dynamic_collapsable_tables",
+  "info": {
+    "displayName": "Collapsable Table"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "column": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c90-l1-table-column",
+      "max": 3
+    }
+  }
+}

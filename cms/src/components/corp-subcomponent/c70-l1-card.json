@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_corp_subcomponent_c70_l1_cards",
+  "info": {
+    "displayName": "C70-l1-card"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

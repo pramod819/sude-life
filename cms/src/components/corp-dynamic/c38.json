@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_corp_dynamic_c38s",
+  "info": {
+    "displayName": "[C38] - Logo Component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "logos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c38-l1-logo"
+    }
+  }
+}

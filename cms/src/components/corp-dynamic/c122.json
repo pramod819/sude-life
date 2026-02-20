@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_corp_dynamic_c122s",
+  "info": {
+    "displayName": "[Form] COI Download"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "navigationId": {
+      "type": "string"
+    },
+    "labelPack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.coi-download-label-pack"
+    }
+  }
+}

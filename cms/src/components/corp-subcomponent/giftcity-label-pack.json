@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_corp_subcomponent_giftcity_label_packs",
+  "info": {
+    "displayName": "giftcity-labelPack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "first_name",
+        "last_name",
+        "mobile",
+        "email",
+        "country",
+        "button",
+        "success"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

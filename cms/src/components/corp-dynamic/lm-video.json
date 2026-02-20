@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_corp_dynamic_lm_videos",
+  "info": {
+    "displayName": "[LM] Video"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "video": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

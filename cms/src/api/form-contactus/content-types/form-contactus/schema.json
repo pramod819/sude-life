@@ -1,0 +1,33 @@
+{
+    "kind": "collectionType",
+    "collectionName": "form_contactuses",
+    "info": {
+        "singularName": "form-contactus",
+        "pluralName": "form-contactuses",
+        "displayName": "[Form] Contact us",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "subject": {
+            "type": "string",
+            "required": true
+        },
+        "message": {
+            "type": "text"
+        },
+        "mobile": {
+            "type": "string"
+        },
+        "email": {
+            "type": "email"
+        }
+    }
+}

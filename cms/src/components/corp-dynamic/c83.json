@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_corp_dynamic_c83s",
+  "info": {
+    "displayName": "[C83] - Related Articles"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "articles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c83-l1-blogs",
+      "max": 6
+    },
+    "labelPack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c83-l1-label-pack"
+    }
+  }
+}

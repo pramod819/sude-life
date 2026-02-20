@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /error.html
+Disallow: /_healthcheck
+Disallow: /static/
+
+# Sitemap files
+
+Sitemap: https://www.sudlife.in/sitemap.xml

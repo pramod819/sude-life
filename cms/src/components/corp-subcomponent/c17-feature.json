@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_corp_subcomponent_c17_features",
+  "info": {
+    "displayName": "C17-feature"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

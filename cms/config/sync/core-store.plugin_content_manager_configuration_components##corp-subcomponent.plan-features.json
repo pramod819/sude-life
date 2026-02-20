@@ -1,0 +1,57 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-subcomponent.plan-features",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "feature",
+      "defaultSortBy": "feature",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "feature": {
+        "edit": {
+          "label": "feature",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "feature",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "feature"
+      ],
+      "edit": [
+        [
+          {
+            "name": "feature",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "corp-subcomponent.plan-features",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

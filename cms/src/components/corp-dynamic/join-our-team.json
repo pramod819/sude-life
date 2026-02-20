@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_corp_dynamic_join_our_teams",
+  "info": {
+    "displayName": "[Form] Join our team",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "bgImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "labelPack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.join-our-team-label-pack"
+    },
+    "redirectUrl": {
+      "type": "string"
+    },
+    "navigationId": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_corp_dynamic_c94s",
+  "info": {
+    "displayName": "[C94] - Leadership Speaks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "bgImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c94-l1-card",
+      "max": 8
+    },
+    "navigationId": {
+      "type": "string"
+    }
+  }
+}

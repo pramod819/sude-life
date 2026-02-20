@@ -1,0 +1,33 @@
+{
+    "kind": "singleType",
+    "collectionName": "corp_commons",
+    "info": {
+        "singularName": "corp-common",
+        "pluralName": "corp-commons",
+        "displayName": "Corp Site Common Contents",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "page_404": {
+            "type": "string"
+        },
+        "cmp_header": {
+            "type": "dynamiczone",
+            "components": ["corp-header.c1", "intranet-header.header"]
+        },
+        "cmp_footer": {
+            "type": "dynamiczone",
+            "components": ["corp-footer.c2", "intranet-footer.footer"]
+        },
+        "page_global_search": {
+            "type": "string"
+        },
+        "most_searched_keywords": {
+            "type": "text"
+        }
+    }
+}

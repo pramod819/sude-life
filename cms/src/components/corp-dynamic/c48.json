@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_corp_dynamic_c48s",
+  "info": {
+    "displayName": "[C48] - Text Blocks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "blockTitle": {
+      "type": "string"
+    },
+    "textBlocks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c48-l1-text-blocks"
+    },
+    "importantPoints": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "importantPointHeading": {
+      "type": "string"
+    }
+  }
+}

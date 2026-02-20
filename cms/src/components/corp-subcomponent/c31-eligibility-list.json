@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_corp_subcomponent_c31_eligibility_lists",
+  "info": {
+    "displayName": "C31 Eligibility List",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

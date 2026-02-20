@@ -1,0 +1,29 @@
+{
+    "kind": "collectionType",
+    "collectionName": "investors_categories",
+    "info": {
+        "singularName": "investors-category",
+        "pluralName": "investors-categories",
+        "displayName": "Investors Category",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "investor_category": {
+            "type": "string"
+        },
+        "display_format": {
+            "type": "enumeration",
+            "enum": ["Table", "Icon"],
+            "required": true,
+            "default": "Table"
+        },
+        "show_filter_quarterly": {
+            "type": "boolean",
+            "default": false
+        }
+    }
+}

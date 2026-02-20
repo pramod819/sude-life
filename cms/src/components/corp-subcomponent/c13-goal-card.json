@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_corp_subcomponent_c13_goal_cards",
+  "info": {
+    "displayName": "C13-goal-card"
+  },
+  "options": {},
+  "attributes": {
+    "bgcolor": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    }
+  }
+}

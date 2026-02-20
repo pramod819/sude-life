@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_corp_dynamic_c105_fund_navs",
+  "info": {
+    "displayName": "[C105] Fund Nav",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "displayCategory": {
+      "type": "boolean"
+    },
+    "labelPack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.fund-nav-labelpacks"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "General",
+        "NRI"
+      ]
+    }
+  }
+}

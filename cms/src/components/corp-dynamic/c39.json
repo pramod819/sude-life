@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_corp_dynamic_c39s",
+  "info": {
+    "displayName": "[C39] - Our Promoters"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "promoters": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c39-l1-item",
+      "max": 8
+    }
+  }
+}

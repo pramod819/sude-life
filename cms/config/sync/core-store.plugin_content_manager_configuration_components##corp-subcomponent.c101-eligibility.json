@@ -1,0 +1,76 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-subcomponent.c101-eligibility",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "boldText",
+      "defaultSortBy": "boldText",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "boldText": {
+        "edit": {
+          "label": "Bold Text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Bold Text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text": {
+        "edit": {
+          "label": "Text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Text",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "boldText",
+        "text"
+      ],
+      "edit": [
+        [
+          {
+            "name": "boldText",
+            "size": 6
+          },
+          {
+            "name": "text",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "corp-subcomponent.c101-eligibility",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

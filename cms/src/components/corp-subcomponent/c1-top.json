@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_corp_subcomponent_c1_tops",
+  "info": {
+    "displayName": "c1-top"
+  },
+  "options": {},
+  "attributes": {
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.cta"
+    }
+  }
+}

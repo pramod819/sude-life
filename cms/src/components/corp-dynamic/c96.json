@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_corp_dynamic_c96s",
+  "info": {
+    "displayName": "[C96] - Claims horizontal tabs with icons & text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "tabList": {
+      "displayName": "c96-tabs",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c96-tabs"
+    }
+  }
+}

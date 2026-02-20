@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_corp_subcomponent_labelpack_become_an_agents",
+  "info": {
+    "displayName": "Labelpack-becomeAnAgent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "name",
+        "mobile",
+        "spam",
+        "button",
+        "success"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

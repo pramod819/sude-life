@@ -1,0 +1,57 @@
+{
+  "collectionName": "components_intranet_footer_footers",
+  "info": {
+    "displayName": "[Footer] Intranet Site"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "productMenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corp-subcomponent.c2-product-menu"
+    },
+    "quickLinks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corp-subcomponent.c2-quick-links"
+    },
+    "importantLinks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corp-subcomponent.c2-menu"
+    },
+    "otherLinks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corp-subcomponent.c2-other-links"
+    },
+    "followUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corp-subcomponent.c2-follow-us"
+    },
+    "disclaimer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corp-subcomponent.c2-text"
+    },
+    "infoSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corp-subcomponent.c2-info-section"
+    },
+    "copyright": {
+      "type": "text"
+    },
+    "stickyModule": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.sticky-module-l1"
+    }
+  }
+}

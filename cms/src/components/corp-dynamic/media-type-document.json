@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_corp_dynamic_media_type_documents",
+  "info": {
+    "displayName": "[Media] document",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "document": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "displayDate": {
+      "type": "date",
+      "required": true
+    }
+  }
+}

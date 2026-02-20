@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_corp_dynamic_c66s",
+  "info": {
+    "displayName": "[C66] - Investors landing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "subTitle": {
+      "type": "richtext"
+    },
+    "labelPack": {
+      "displayName": "c66-labelPack",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c66-label-pack",
+      "max": 7
+    }
+  }
+}

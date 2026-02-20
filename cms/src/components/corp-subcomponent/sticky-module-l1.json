@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_corp_subcomponent_sticky_module_l1s",
+  "info": {
+    "displayName": "stickyModule-l1"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    }
+  }
+}

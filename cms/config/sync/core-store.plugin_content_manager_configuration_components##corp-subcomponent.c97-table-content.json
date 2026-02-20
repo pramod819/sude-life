@@ -1,0 +1,231 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-subcomponent.c97-table-content",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "tableHeader",
+      "defaultSortBy": "tableHeader",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "tableHeader": {
+        "edit": {
+          "label": "Table Header",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Table Header",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "columnHeader1": {
+        "edit": {
+          "label": "Column Header1",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Column Header1",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "columnHeader2": {
+        "edit": {
+          "label": "Column Header2",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Column Header2",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "columnHeader3": {
+        "edit": {
+          "label": "Column Header3",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Column Header3",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "columnHeader4": {
+        "edit": {
+          "label": "Column Header4",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Column Header4",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "columnHeader5": {
+        "edit": {
+          "label": "Column Header5",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Column Header5",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "columnHeader6": {
+        "edit": {
+          "label": "Column Header6",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Column Header6",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "rows": {
+        "edit": {
+          "label": "Row Data",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Row Data",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "disclaimerText": {
+        "edit": {
+          "label": "Disclaimer Text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Disclaimer Text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "columnHeader7": {
+        "edit": {
+          "label": "Column Header7",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Column Header7",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "tableHeader",
+        "columnHeader1",
+        "columnHeader2"
+      ],
+      "edit": [
+        [
+          {
+            "name": "tableHeader",
+            "size": 6
+          },
+          {
+            "name": "columnHeader1",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "columnHeader2",
+            "size": 6
+          },
+          {
+            "name": "columnHeader3",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "columnHeader4",
+            "size": 6
+          },
+          {
+            "name": "columnHeader5",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "columnHeader6",
+            "size": 6
+          },
+          {
+            "name": "columnHeader7",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "rows",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "disclaimerText",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "corp-subcomponent.c97-table-content",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

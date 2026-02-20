@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_corp_subcomponent_labelpack_fatcaupdates",
+  "info": {
+    "displayName": "Label Pack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Screen 1 Info Text",
+        "Option Policy Text",
+        "Option Mobile Text",
+        "Option Email Text",
+        "Option Field Title",
+        "Date of Birth Field Label",
+        "Application Number Field Label",
+        "Name Field Label",
+        "Resident Field Label",
+        "Tax Resident Field Label",
+        "Father Name Field Label",
+        "Birth Place Field Label",
+        "Birth Country Field Label",
+        "Current Address Field Label",
+        "Permanent Address Field Label",
+        "Permanent Address Field Label",
+        "Phone Field Label",
+        "Authority Field Label",
+        "Authority Effective Field Label",
+        "Effective Date Field Label",
+        "Standing Instruction Field Label",
+        "Privacy Policy Field Label",
+        "Policy Placeholder",
+        "Mobile Placeholder",
+        "Email Placeholder",
+        "Application Number Placeholder",
+        "Name Placeholder",
+        "Father Name Placeholder",
+        "Birth Place Placeholder",
+        "Birth Country Placeholder",
+        "Effective Date Placeholder",
+        "Submit Button Text",
+        "Back Button text"
+      ]
+    }
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-subcomponent.join-us-professional",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "title",
+      "defaultSortBy": "title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "subTitle": {
+        "edit": {
+          "label": "Sub Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Sub Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "cta": {
+        "edit": {
+          "label": "CTA",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "CTA",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "image": {
+        "edit": {
+          "label": "Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "bgColor": {
+        "edit": {
+          "label": "Bg Color",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Bg Color",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "bulletPointList": {
+        "edit": {
+          "label": "Bullet Point List",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Bullet Point List",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "formType": {
+        "edit": {
+          "label": "Form Type",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Form Type",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "title",
+        "subTitle",
+        "cta"
+      ],
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 6
+          },
+          {
+            "name": "subTitle",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "cta",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "image",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "bgColor",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "bulletPointList",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "formType",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "corp-subcomponent.join-us-professional",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

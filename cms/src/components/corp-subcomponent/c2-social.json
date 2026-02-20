@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_corp_subcomponent_c2_socials",
+  "info": {
+    "displayName": "C2-Social",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "facebook",
+        "linkedin",
+        "twitter",
+        "instagram",
+        "youtube"
+      ],
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

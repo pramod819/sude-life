@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_corp_subcomponent_blog_filter_label_packs",
+  "info": {
+    "displayName": "BlogFilter-LabelPack"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "trendingFilter",
+        "titleByAscOrder",
+        "titleByDescOrder",
+        "dateByAscOrder",
+        "dateByDescOrder",
+        "searchTitle",
+        "detailsLink",
+        "viewText",
+        "durationText",
+        "loadButton",
+        "noResult"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

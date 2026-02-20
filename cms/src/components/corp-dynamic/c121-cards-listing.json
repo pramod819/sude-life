@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_corp_dynamic_c121_cards_listings",
+  "info": {
+    "displayName": "[C121] - Cards listing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c121-cards",
+      "max": 18
+    }
+  }
+}

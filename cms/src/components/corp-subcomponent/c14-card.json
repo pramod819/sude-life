@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_corp_subcomponent_c14_cards",
+  "info": {
+    "displayName": "c14-card"
+  },
+  "options": {},
+  "attributes": {
+    "bgcolor": {
+      "type": "string"
+    },
+    "bgimage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "title": {
+      "type": "string"
+    },
+    "sub_title": {
+      "type": "richtext"
+    }
+  }
+}

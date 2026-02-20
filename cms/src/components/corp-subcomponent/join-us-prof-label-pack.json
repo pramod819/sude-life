@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_corp_subcomponent_join_us_prof_label_packs",
+  "info": {
+    "displayName": "join-us-prof-labelPack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "button_text",
+        "first_name",
+        "last_name",
+        "mobile",
+        "size",
+        "format",
+        "resume",
+        "success"
+      ]
+    }
+  }
+}

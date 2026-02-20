@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_corp_subcomponent_c46_l1_points",
+  "info": {
+    "displayName": "C46-l1-points"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "shortDescription": {
+      "type": "text"
+    }
+  }
+}

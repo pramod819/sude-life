@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_corp_subcomponent_c51_l1_tabs",
+  "info": {
+    "displayName": "C51-l1-tab",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,332 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::learning-module.learning-module",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "title",
+      "defaultSortBy": "title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "type": {
+        "edit": {
+          "label": "Type",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Type",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "module": {
+        "edit": {
+          "label": "Module",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "module",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "detailComponent": {
+        "edit": {
+          "label": "Modules Detail Page",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Detail Component",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "thumbnail": {
+        "edit": {
+          "label": "Thumbnail",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Thumbnail",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "cmp_dynamic": {
+        "edit": {
+          "label": "Detail Page",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cmp_dynamic",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "parent": {
+        "edit": {
+          "label": "Parent",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "path"
+        },
+        "list": {
+          "label": "parent",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "path": {
+        "edit": {
+          "label": "Path",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "path",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "shortDescription": {
+        "edit": {
+          "label": "Short Description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Short Description",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "bannerImage": {
+        "edit": {
+          "label": "Banner Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Banner Image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "number": {
+        "edit": {
+          "label": "Topic Number",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Topic Number",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "keywords": {
+        "edit": {
+          "label": "Keywords",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "keywords",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "title",
+        "type",
+        "createdAt",
+        "module"
+      ],
+      "edit": [
+        [
+          {
+            "name": "path",
+            "size": 6
+          },
+          {
+            "name": "type",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "parent",
+            "size": 6
+          },
+          {
+            "name": "module",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "number",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "shortDescription",
+            "size": 6
+          },
+          {
+            "name": "keywords",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "thumbnail",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "detailComponent",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "bannerImage",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "cmp_dynamic",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "uid": "api::learning-module.learning-module"
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

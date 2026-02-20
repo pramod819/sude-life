@@ -1,0 +1,218 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-dynamic.gift-city",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "formTitle",
+      "defaultSortBy": "formTitle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "shortDescription": {
+        "edit": {
+          "label": "Short Description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "shortDescription",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "bulletPoints": {
+        "edit": {
+          "label": "Bullet Points",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "bulletPoints",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "bgImage": {
+        "edit": {
+          "label": "Background Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "bgImage",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "formTitle": {
+        "edit": {
+          "label": "Form Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "formTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "labelPack": {
+        "edit": {
+          "label": "Label Pack",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "labelPack",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "bgColour": {
+        "edit": {
+          "label": "Background Colour",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "bgColour",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "bulletPointsOverlayColour": {
+        "edit": {
+          "label": "Bullet Points Overlay Colour",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "bulletPointsOverlayColour",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "accepted_countries": {
+        "edit": {
+          "label": "Accepted Countries",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "accepted_countries",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "title",
+        "bulletPoints",
+        "bgImage"
+      ],
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "shortDescription",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "accepted_countries",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "bulletPoints",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "bgImage",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "formTitle",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "labelPack",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "bgColour",
+            "size": 6
+          },
+          {
+            "name": "bulletPointsOverlayColour",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "corp-dynamic.gift-city",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

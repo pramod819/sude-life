@@ -1,0 +1,24 @@
+{
+    "kind": "collectionType",
+    "collectionName": "learning_module_tags",
+    "info": {
+        "singularName": "learning-module-tag",
+        "pluralName": "learning-module-tags",
+        "displayName": "[LM] Modules",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "number": {
+            "type": "integer",
+            "required": true
+        }
+    }
+}

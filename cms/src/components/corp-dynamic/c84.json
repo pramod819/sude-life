@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_corp_dynamic_c84s",
+  "info": {
+    "displayName": "[C84] - Policy & Discolsures",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "subTitle": {
+      "type": "richtext"
+    },
+    "policiesAndDisclosure": {
+      "displayName": "c84-policies-disclosure",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c84-policies-disclosure"
+    },
+    "labelPack": {
+      "displayName": "84-labelPack",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.84-label-pack"
+    }
+  }
+}

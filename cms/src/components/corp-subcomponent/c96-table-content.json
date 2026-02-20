@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_corp_subcomponent_c94_table_contents",
+  "info": {
+    "displayName": "c94-table-content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "importantPointHeader": {
+      "type": "string"
+    },
+    "importantPoints": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "columnOneHeader": {
+      "type": "string"
+    },
+    "columnTwoHeader": {
+      "type": "string"
+    },
+    "rowData": {
+      "displayName": "c96",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c96"
+    }
+  }
+}

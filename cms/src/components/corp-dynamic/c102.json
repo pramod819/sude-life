@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_corp_dynamic_c102s",
+  "info": {
+    "displayName": "[C102]- Cards with popup",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "shortDescription": {
+      "type": "richtext"
+    },
+    "cardItems": {
+      "displayName": "c102-cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c102-cards",
+      "max": 10,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_corp_dynamic_c54s",
+  "info": {
+    "displayName": "[C54] - Withdrawn products"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    }
+  }
+}

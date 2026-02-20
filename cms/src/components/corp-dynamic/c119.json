@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_corp_dynamic_c119s",
+  "info": {
+    "displayName": "[C119] - Learning Module banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "shortDescription": {
+      "type": "text"
+    },
+    "topics": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::learning-module.learning-module"
+    },
+    "btnText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

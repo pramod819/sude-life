@@ -1,0 +1,197 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-dynamic.c8",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "officeTitle",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "cta": {
+        "edit": {
+          "label": "cta",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cta",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "image": {
+        "edit": {
+          "label": "image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "minicard": {
+        "edit": {
+          "label": "minicard",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "minicard",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "officeTitle": {
+        "edit": {
+          "label": "officeTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "officeTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "officeSubTitle": {
+        "edit": {
+          "label": "officeSubTitle",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "officeSubTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "officeAddress": {
+        "edit": {
+          "label": "officeAddress",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "officeAddress",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "officeWorkHour": {
+        "edit": {
+          "label": "officeWorkHour",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "officeWorkHour",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "cta",
+        "minicard",
+        "title"
+      ],
+      "edit": [
+        [
+          {
+            "name": "cta",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "minicard",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "image",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "officeTitle",
+            "size": 6
+          },
+          {
+            "name": "officeSubTitle",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "officeAddress",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "officeWorkHour",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "corp-dynamic.c8",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

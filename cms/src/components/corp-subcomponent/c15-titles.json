@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_corp_subcomponent_c15_titles",
+  "info": {
+    "displayName": "C15-titles"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    }
+  }
+}

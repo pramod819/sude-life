@@ -1,0 +1,59 @@
+{
+  "collectionName": "components_corp_dynamic_product_forms",
+  "info": {
+    "displayName": "[Form] Product Form",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "shortDescription": {
+      "type": "text"
+    },
+    "bgImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "pointers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.product-form-pointers",
+      "max": 10
+    },
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::plan.plan"
+    },
+    "formTitle": {
+      "type": "string"
+    },
+    "labelPack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.product-form-label-pack"
+    },
+    "disclaimer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.product-form-disclaimer",
+      "max": 2
+    },
+    "disableBlopRedirection": {
+      "type": "boolean",
+      "default": false
+    },
+    "disableCcLeads": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

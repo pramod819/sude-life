@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_corp_dynamic_c4s",
+  "info": {
+    "displayName": "Standard Image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "media_img": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    }
+  }
+}

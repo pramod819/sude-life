@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_corp_subcomponent_c97_rows",
+  "info": {
+    "displayName": "c97-rows",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "columnData1": {
+      "type": "text"
+    },
+    "columnData2": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "columnData3": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "columnData4": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "columnData5": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "columnData6": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    },
+    "columnData7": {
+      "type": "enumeration",
+      "enum": [
+        "Yes",
+        "No"
+      ]
+    }
+  }
+}

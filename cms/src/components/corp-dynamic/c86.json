@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_corp_dynamic_c86s",
+  "info": {
+    "displayName": "[C86] - Three background cards"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "shortDescription": {
+      "type": "text"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c86-l1-card",
+      "max": 3
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_corp_dynamic_c106s",
+  "info": {
+    "displayName": "[C106] - Banner with placeholders",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "shortDescription": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "leftText": {
+      "type": "string"
+    },
+    "rightText": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "leftImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "rightImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    }
+  }
+}

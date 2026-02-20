@@ -1,0 +1,76 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-subcomponent.c97-form-download",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "formName",
+      "defaultSortBy": "formName",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "formName": {
+        "edit": {
+          "label": "Form Name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Form Name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "formUpload": {
+        "edit": {
+          "label": "Form Upload",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Form Upload",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "formName",
+        "formUpload"
+      ],
+      "edit": [
+        [
+          {
+            "name": "formName",
+            "size": 6
+          },
+          {
+            "name": "formUpload",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "corp-subcomponent.c97-form-download",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

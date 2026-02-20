@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_corp_subcomponent_grievance_other_infos",
+  "info": {
+    "displayName": "grievance-other-info",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "text": {
+      "type": "text"
+    },
+    "info": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultMarkdown"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

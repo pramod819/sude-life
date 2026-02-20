@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_corp_dynamic_c95_public_disclosures",
+  "info": {
+    "displayName": "[C95] - Public Disclosures",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c95-tabs"
+    }
+  }
+}

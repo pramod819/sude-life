@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_corp_subcomponent_c93_icon_texts",
+  "info": {
+    "displayName": "c93-icon-text"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

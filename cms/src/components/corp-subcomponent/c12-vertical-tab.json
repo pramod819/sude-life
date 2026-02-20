@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_corp_subcomponent_c12_vertical_tabs",
+  "info": {
+    "displayName": "c12-vertical-tab"
+  },
+  "options": {},
+  "attributes": {
+    "tabText": {
+      "type": "string"
+    },
+    "faqList": {
+      "displayName": "c12-question-list",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c12-question-list"
+    }
+  }
+}

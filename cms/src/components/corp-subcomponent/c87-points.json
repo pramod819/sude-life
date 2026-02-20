@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_corp_subcomponent_c87_points",
+  "info": {
+    "displayName": "c87-points"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

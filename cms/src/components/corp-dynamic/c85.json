@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_corp_dynamic_c85s",
+  "info": {
+    "displayName": "[C85] - Horizontal tabs with numbering & icons",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "tabItems": {
+      "displayName": "c85-tab",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c85-tab",
+      "max": 12
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

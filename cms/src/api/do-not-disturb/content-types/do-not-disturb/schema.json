@@ -1,0 +1,44 @@
+{
+    "kind": "collectionType",
+    "collectionName": "do_not_disturbs",
+    "info": {
+        "singularName": "do-not-disturb",
+        "pluralName": "do-not-disturbs",
+        "displayName": "[Form] Do not disturb",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "first_name": {
+            "type": "string",
+            "required": true
+        },
+        "last_name": {
+            "type": "string",
+            "required": true
+        },
+        "mobile": {
+            "type": "string",
+            "required": true
+        },
+        "email": {
+            "type": "string",
+            "required": true
+        },
+        "landline_number": {
+            "type": "string"
+        },
+        "pincode": {
+            "type": "string"
+        },
+        "state": {
+            "type": "string"
+        },
+        "city": {
+            "type": "string"
+        }
+    }
+}

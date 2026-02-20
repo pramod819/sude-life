@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_corp_subcomponent_c12_question_lists",
+  "info": {
+    "displayName": "c12-question-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text"
+    },
+    "answer": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

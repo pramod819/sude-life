@@ -1,0 +1,156 @@
+services:
+  database:
+    image: mariadb:11.4.3
+    container_name: "${PROJECT_NAME}_db"
+    command: --transaction-isolation=READ-COMMITTED
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      MYSQL_DATABASE: strapi_db
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./db_data:/var/lib/mysql:delegated
+      - ./.backup/db:/backup/db
+    networks:
+      - local
+
+  nginx:
+    image: nginx:1.23.0-alpine
+    container_name: "${PROJECT_NAME}_nginx"
+    volumes:
+      - ./local/nginx/mime.types:/etc/nginx/mime.types
+      - ./local/nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./local/nginx/backend.conf:/etc/nginx/conf.d/default.conf
+      - ./local/nginx/frontend.conf:/etc/nginx/conf.d/frontend.conf
+      - ./local/nginx/search.conf:/etc/nginx/conf.d/search.conf
+      - ./local/nginx/intranet.conf:/etc/nginx/conf.d/intranet.conf
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - cms
+      - nodejs
+    networks:
+      local:
+        aliases:
+          - sudlife.backend.local
+          - sudlife.frontend.local
+          - sudlife.search.local
+          - sudlife.intranet.local
+
+  cms:
+    build: ./local/cms
+    container_name: "${PROJECT_NAME}_cms"
+    working_dir: /var/www/html
+    volumes:
+      - ./.backup/strapi:/backup
+      - ..:/var/www/html
+      - ../cms:/var/www/html/cms
+      - /var/www/html/cms/node_modules
+    tty: true
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
+    ports:
+      - "1337:1337"
+    networks:
+      local:
+        aliases:
+          - sudlife.backend.local
+
+  nodejs:
+    build: ./local/nodejs
+    container_name: "${PROJECT_NAME}_nodejs"
+    working_dir: /var/www/html
+    volumes:
+      - ../nextjs:/var/www/html/nextjs
+      - /var/www/html/nextjs/node_modules
+    tty: true
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
+    ports:
+      - "3000:3000"
+    networks:
+      local:
+        aliases:
+          - sudlife.frontend.local
+          - sudlife.intranet.local
+
+  opensearch-node1:
+    image: public.ecr.aws/opensearchproject/opensearch:2.11.0
+    container_name: "${PROJECT_NAME}_opensearch-node1"
+    environment:
+      - cluster.name=opensearch-cluster
+      - node.name=opensearch-node1
+      - discovery.seed_hosts=opensearch-node1,opensearch-node2
+      - cluster.initial_cluster_manager_nodes=opensearch-node1,opensearch-node2
+      - bootstrap.memory_lock=true
+      - "OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m"
+      - "DISABLE_INSTALL_DEMO_CONFIG=true"
+      - "DISABLE_SECURITY_PLUGIN=true"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
+    volumes:
+      - ./opensearch-data1:/usr/share/opensearch/data
+      - ./local/opensearch.yml:/usr/share/opensearch/config/opensearch.yml
+    ports:
+      - 9200:9200
+      - 9600:9600
+    networks:
+      local:
+        aliases:
+          - sudlife.search.local
+
+  opensearch-node2:
+    image: public.ecr.aws/opensearchproject/opensearch:2.11.0
+    container_name: "${PROJECT_NAME}_opensearch-node2"
+    environment:
+      - cluster.name=opensearch-cluster
+      - node.name=opensearch-node2
+      - discovery.seed_hosts=opensearch-node1,opensearch-node2
+      - cluster.initial_cluster_manager_nodes=opensearch-node1,opensearch-node2
+      - bootstrap.memory_lock=true
+      - "OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m"
+      - "DISABLE_INSTALL_DEMO_CONFIG=true"
+      - "DISABLE_SECURITY_PLUGIN=true"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
+    volumes:
+      - ./opensearch-data2:/usr/share/opensearch/data
+      - ./local/opensearch.yml:/usr/share/opensearch/config/opensearch.yml
+    networks:
+      local:
+        aliases:
+          - sudlife.search.local
+
+  opensearch-dashboards:
+    image: public.ecr.aws/opensearchproject/opensearch-dashboards:2.11.0
+    container_name: "${PROJECT_NAME}_opensearch-dashboards"
+    ports:
+      - 5601:5601
+    expose:
+      - "5601"
+    environment:
+      - 'OPENSEARCH_HOSTS=["http://opensearch-node1:9200","http://opensearch-node2:9200"]'
+      - "DISABLE_SECURITY_DASHBOARDS_PLUGIN=true"
+    networks:
+      local:
+        aliases:
+          - sudlife.search.local
+
+networks:
+  local:
+
+volumes:
+  db_data:

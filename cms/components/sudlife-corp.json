@@ -1,0 +1,566 @@
+{
+    "corp-header.c1": {
+        "key": "header",
+        "service": "api::sudlife-corp.header"
+    },
+    "corp-footer.c2": {
+        "key": "footer",
+        "service": "api::sudlife-corp.footer"
+    },
+    "corp-dynamic.c3": {
+        "key": "standardText",
+        "service": "api::sudlife-corp.standard-text"
+    },
+    "corp-dynamic.c4": {
+        "key": "standardImage",
+        "service": "api::sudlife-corp.standard-image"
+    },
+    "corp-dynamic.c5": {
+        "key": "testimonials",
+        "service": "api::sudlife-corp.testimonials"
+    },
+    "corp-dynamic.c7": {
+        "key": "iconAndText",
+        "service": "api::sudlife-corp.icon-and-text"
+    },
+    "corp-dynamic.c12": {
+        "key": "faq",
+        "service": "api::sudlife-corp.faq"
+    },
+    "corp-dynamic.c8": {
+        "key": "connectWithUs",
+        "service": "api::sudlife-corp.connect-with-us"
+    },
+    "corp-dynamic.c6": {
+        "key": "cardComponent",
+        "service": "api::sudlife-corp.card-component"
+    },
+    "corp-dynamic.c13": {
+        "key": "goal",
+        "service": "api::sudlife-corp.goal"
+    },
+    "corp-dynamic.c9": {
+        "key": "textMedia",
+        "service": "api::sudlife-corp.text-and-media"
+    },
+    "corp-dynamic.c14": {
+        "key": "introduction",
+        "service": "api::sudlife-corp.introduction"
+    },
+    "corp-dynamic.c15": {
+        "key": "text-and-image",
+        "service": "api::sudlife-corp.text-and-image"
+    },
+    "corp-dynamic.c11": {
+        "key": "tabSlider",
+        "service": "api::sudlife-corp.tab-slider"
+    },
+    "corp-dynamic.c17": {
+        "key": "become-agent",
+        "service": "api::sudlife-corp.become-agent"
+    },
+    "corp-dynamic.c19": {
+        "key": "verticalTab",
+        "service": "api::sudlife-corp.vertical-tab"
+    },
+    "corp-dynamic.c18": {
+        "key": "accordion",
+        "service": "api::sudlife-corp.accordion"
+    },
+    "corp-dynamic.c21": {
+        "key": "inclusion-exclusion",
+        "service": "api::sudlife-corp.inclusion-exclusion"
+    },
+    "corp-dynamic.c22": {
+        "key": "card-slider",
+        "service": "api::sudlife-corp.card-slider"
+    },
+    "corp-dynamic.c25": {
+        "key": "iconTextSlider",
+        "service": "api::sudlife-corp.icon-text-slider"
+    },
+    "corp-dynamic.c26": {
+        "key": "iconWithText",
+        "service": "api::sudlife-corp.text-with-icon"
+    },
+    "corp-dynamic.c27": {
+        "key": "planFeatures",
+        "service": "api::sudlife-corp.plan-features"
+    },
+    "corp-dynamic.c23": {
+        "key": "documentList",
+        "service": "api::sudlife-corp.document-upload"
+    },
+    "corp-dynamic.c24": {
+        "key": "avoidClaimReject",
+        "service": "api::sudlife-corp.avoid-claim-reject"
+    },
+    "corp-dynamic.c20": {
+        "key": "stepToBuy",
+        "service": "api::sudlife-corp.step-to-buy"
+    },
+    "corp-dynamic.c30": {
+        "key": "keyReasons",
+        "service": "api::sudlife-corp.key-reasons"
+    },
+    "corp-dynamic.c28": {
+        "key": "selectPlan",
+        "service": "api::sudlife-corp.select-plan"
+    },
+    "corp-dynamic.c32": {
+        "key": "howItWorks",
+        "service": "api::sudlife-corp.how-it-works"
+    },
+    "corp-dynamic.c31": {
+        "key": "eligibility",
+        "service": "api::sudlife-corp.eligibility"
+    },
+    "corp-dynamic.c33": {
+        "key": "learnAboutPlan",
+        "service": "api::sudlife-corp.learn-about-plan"
+    },
+    "corp-dynamic.c34": {
+        "key": "stepToWork",
+        "service": "api::sudlife-corp.step-to-work"
+    },
+    "corp-dynamic.c36": {
+        "key": "fullWidthBanner",
+        "service": "api::sudlife-corp.full-width-banner"
+    },
+    "corp-dynamic.c37": {
+        "key": "aboutSudLife",
+        "service": "api::sudlife-corp.about-sud-life"
+    },
+    "corp-dynamic.c35": {
+        "key": "imageTextPlan",
+        "service": "api::sudlife-corp.image-text-plan"
+    },
+    "corp-dynamic.c38": {
+        "key": "logoComponent",
+        "service": "api::sudlife-corp.logo-component"
+    },
+    "corp-dynamic.c39": {
+        "key": "ourPromoters",
+        "service": "api::sudlife-corp.our-promoters"
+    },
+    "corp-dynamic.c40": {
+        "key": "peopleListing",
+        "service": "api::sudlife-corp.people-lising"
+    },
+    "corp-dynamic.c42": {
+        "key": "cardSliderDescription",
+        "service": "api::sudlife-corp.card-slider-description"
+    },
+    "corp-dynamic.c29": {
+        "key": "glossary",
+        "service": "api::sudlife-corp.glossary"
+    },
+    "corp-dynamic.c44": {
+        "key": "horizontalTabs",
+        "service": "api::sudlife-corp.horizontal-tabs"
+    },
+    "corp-dynamic.c45": {
+        "key": "tender",
+        "service": "api::sudlife-corp.tender"
+    },
+    "corp-dynamic.c47": {
+        "key": "simpleIntroduction",
+        "service": "api::sudlife-corp.simple-introduction"
+    },
+    "corp-dynamic.c46": {
+        "key": "imageTextWithPointers",
+        "service": "api::sudlife-corp.image-text-with-pointers"
+    },
+    "corp-dynamic.c48": {
+        "key": "textBlocks",
+        "service": "api::sudlife-corp.text-blocks"
+    },
+    "corp-dynamic.c49": {
+        "key": "scrollingCards",
+        "service": "api::sudlife-corp.scrolling-cards"
+    },
+    "corp-dynamic.c50": {
+        "key": "columnCardsWithCta",
+        "service": "api::sudlife-corp.column-cards-with-cta"
+    },
+    "corp-dynamic.c51": {
+        "key": "stepsToBuyOnline",
+        "service": "api::sudlife-corp.steps-to-buy-online"
+    },
+    "corp-dynamic.c41": {
+        "key": "errorAndMaintenance",
+        "service": "api::sudlife-corp.error-and-maintenance"
+    },
+    "corp-dynamic.c53": {
+        "key": "guideComponent",
+        "service": "api::sudlife-corp.guide-component"
+    },
+    "corp-dynamic.c54": {
+        "key": "withdrawnProducts",
+        "service": "api::sudlife-corp.withdrawn-products"
+    },
+    "corp-dynamic.c55": {
+        "key": "twoColumnIconText",
+        "service": "api::sudlife-corp.two-column-icon-text"
+    },
+    "corp-dynamic.c56": {
+        "key": "twoCardsWithCta",
+        "service": "api::sudlife-corp.two-cards-with-cta"
+    },
+    "corp-dynamic.c57": {
+        "key": "cardWithIcon",
+        "service": "api::sudlife-corp.card-with-icon"
+    },
+    "corp-dynamic.c58": {
+        "key": "standardImageText",
+        "service": "api::sudlife-corp.standard-image-text"
+    },
+    "corp-dynamic.c64": {
+        "key": "videoCarousel",
+        "service": "api::sudlife-corp.video-carousel"
+    },
+    "corp-dynamic.c69": {
+        "key": "pureText",
+        "service": "api::sudlife-corp.pure-text"
+    },
+    "corp-dynamic.c70": {
+        "key": "overview",
+        "service": "api::sudlife-corp.overview"
+    },
+    "corp-dynamic.c71": {
+        "key": "centerTextImage",
+        "service": "api::sudlife-corp.center-text-image"
+    },
+    "corp-dynamic.c59": {
+        "key": "bannerCarousel",
+        "service": "api::sudlife-corp.banner-carousel"
+    },
+    "corp-dynamic.c60": {
+        "key": "mediaTemplate",
+        "service": "api::sudlife-corp.media-template"
+    },
+    "corp-dynamic.c65": {
+        "key": "productCards",
+        "service": "api::sudlife-corp.product-cards"
+    },
+    "corp-dynamic.c72": {
+        "key": "pointersText",
+        "service": "api::sudlife-corp.pointers-text"
+    },
+    "corp-dynamic.c73": {
+        "key": "productDisplayBanner",
+        "service": "api::sudlife-corp.product-display-banner"
+    },
+    "corp-dynamic.c74": {
+        "key": "accordionWithImage",
+        "service": "api::sudlife-corp.accordion-with-image"
+    },
+    "corp-dynamic.c75": {
+        "key": "textWithProduct",
+        "service": "api::sudlife-corp.text-with-product"
+    },
+    "corp-dynamic.contact-us": {
+        "key": "contactUs",
+        "service": "api::sudlife-corp.contact-us"
+    },
+    "corp-dynamic.dnd": {
+        "key": "dnd",
+        "service": "api::sudlife-corp.dnd"
+    },
+    "corp-dynamic.join-us": {
+        "key": "joinUs",
+        "service": "api::sudlife-corp.join-us"
+    },
+    "corp-dynamic.business-partner": {
+        "key": "businessPartner",
+        "service": "api::sudlife-corp.business-partner"
+    },
+    "corp-dynamic.c76-disclaimers": {
+        "key": "disclaimers",
+        "service": "api::sudlife-corp.disclaimers"
+    },
+    "corp-dynamic.c62": {
+        "key": "blogCategory",
+        "service": "api::sudlife-corp.blog-category"
+    },
+    "corp-dynamic.c78": {
+        "key": "promoterTabs",
+        "service": "api::sudlife-corp.promoter-tabs"
+    },
+    "corp-dynamic.c79": {
+        "key": "textWithVerticalTab",
+        "service": "api::sudlife-corp.text-with-vertical-tab"
+    },
+    "corp-dynamic.c12-faq": {
+        "key": "faqWithTab",
+        "service": "api::sudlife-corp.faq-with-tab"
+    },
+    "corp-dynamic.c12-tab": {
+        "key": "faqWithVerticalTab",
+        "service": "api::sudlife-corp.faq-with-vertical-tab"
+    },
+    "corp-dynamic.blog-component": {
+        "key": "blog-content",
+        "service": "api::sudlife-corp.blog-component"
+    },
+    "corp-dynamic.c85": {
+        "key": "horizontalTabsWithIcons",
+        "service": "api::sudlife-corp.horizontal-tabs-with-icons"
+    },
+    "corp-dynamic.c87": {
+        "key": "tabsWithTextImage",
+        "service": "api::sudlife-corp.tabs-with-text-image"
+    },
+    "corp-dynamic.product-form": {
+        "key": "productForm",
+        "service": "api::sudlife-corp.product-form"
+    },
+    "corp-dynamic.c86": {
+        "key": "threeBackgroundCards",
+        "service": "api::sudlife-corp.three-background-cards"
+    },
+    "corp-dynamic.blog-filter": {
+        "key": "blog-filter",
+        "service": "api::sudlife-corp.blog-filter"
+    },
+    "corp-dynamic.c77": {
+        "key": "rotating-scrollable-cards",
+        "service": "api::sudlife-corp.rotating-scrollable-cards"
+    },
+    "corp-dynamic.branch-detail": {
+        "key": "branchDetail",
+        "service": "api::sudlife-corp.branch-detail"
+    },
+    "corp-dynamic.c43": {
+        "key": "branchLocator",
+        "service": "api::sudlife-corp.branch-locator"
+    },
+    "corp-dynamic.c68-rating": {
+        "key": "ratingComponent",
+        "service": "api::sudlife-corp.rating"
+    },
+    "corp-dynamic.c88": {
+        "key": "helpComponents",
+        "service": "api::sudlife-corp.help-components"
+    },
+    "corp-dynamic.c66": {
+        "key": "investorsLanding",
+        "service": "api::sudlife-corp.investors-landing"
+    },
+    "corp-dynamic.newsletter": {
+        "key": "newsletter",
+        "service": "api::sudlife-corp.newsletter"
+    },
+    "corp-dynamic.c81": {
+        "key": "mustReadArticles",
+        "service": "api::sudlife-corp.must-read-articles"
+    },
+    "corp-dynamic.c91-columns-with-icons-and-cta": {
+        "key": "c91ColumnsWithIcon",
+        "service": "api::sudlife-corp.c91-column-with-icon"
+    },
+    "corp-dynamic.c90-cards-with-icon-and-text": {
+        "key": "c90Component",
+        "service": "api::sudlife-corp.c90-with-text-icon"
+    },
+    "corp-dynamic.c67": {
+        "key": "assortedTable",
+        "service": "api::sudlife-corp.assorted-table"
+    },
+    "corp-dynamic.c92": {
+        "key": "cardWithBackgroundText",
+        "service": "api::sudlife-corp.card-with-background-text"
+    },
+    "corp-dynamic.c89": {
+        "key": "imageGallery",
+        "service": "api::sudlife-corp.image-gallery"
+    },
+    "corp-dynamic.c93-only-icon-and-text": {
+        "key": "c93Component",
+        "service": "api::sudlife-corp.c93-only-icon-text"
+    },
+    "corp-dynamic.c94": {
+        "key": "leadershipSpeaks",
+        "service": "api::sudlife-corp.leadership-speaks"
+    },
+    "corp-dynamic.c84": {
+        "key": "policyDiscolsure",
+        "service": "api::sudlife-corp.policy-discolsure"
+    },
+    "corp-dynamic.form-panupdate": {
+        "key": "panUpdateForm",
+        "service": "api::sudlife-corp.pan-update-form"
+    },
+    "corp-dynamic.c96": {
+        "key": "claimsHorizontalTabsIconsText",
+        "service": "api::sudlife-corp.claims-horizontal-tabs-icons-text"
+    },
+    "corp-dynamic.form-fatcaupdate": {
+        "key": "fatcaUpdateForm",
+        "service": "api::sudlife-corp.fatca-update-form"
+    },
+    "corp-dynamic.join-our-team": {
+        "key": "joinOurTeam",
+        "service": "api::sudlife-corp.join-our-team"
+    },
+    "corp-dynamic.c95-public-disclosures": {
+        "key": "publicDisclosures",
+        "service": "api::sudlife-corp.c95-public-disclosures"
+    },
+    "corp-dynamic.form-payment": {
+        "key": "paymentForm",
+        "service": "api::sudlife-corp.payment-form"
+    },
+    "corp-dynamic.c97": {
+        "key": "claimsPerquisite",
+        "service": "api::sudlife-corp.claims-perquisite"
+    },
+    "corp-dynamic.c99": {
+        "key": "mediaQueries",
+        "service": "api::sudlife-corp.media-queries"
+    },
+    "corp-dynamic.c98": {
+        "key": "downloads",
+        "service": "api::sudlife-corp.downloads"
+    },
+    "corp-dynamic.c101": {
+        "key": "titleWithPointers",
+        "service": "api::sudlife-corp.title-with-pointers"
+    },
+    "corp-dynamic.c100": {
+        "key": "simpleBanner",
+        "service": "api::sudlife-corp.simple-banner"
+    },
+    "corp-dynamic.c83": {
+        "key": "relatedArticles",
+        "service": "api::sudlife-corp.related-articles"
+    },
+    "corp-dynamic.c102": {
+        "key": "cardWithPopup",
+        "service": "api::sudlife-corp.card-with-popup"
+    },
+    "corp-dynamic.c104": {
+        "key": "categoryFeatureBlog",
+        "service": "api::sudlife-corp.category-feature-blog"
+    },
+    "corp-dynamic.c106": {
+        "key": "bannerWithPlaceholders",
+        "service": "api::sudlife-corp.banner-with-placeholders"
+    },
+    "corp-dynamic.c107": {
+        "key": "videoSlider",
+        "service": "api::sudlife-corp.video-slider"
+    },
+    "corp-dynamic.c108": {
+        "key": "textWithOverlapCard",
+        "service": "api::sudlife-corp.text-with-overlap-card"
+    },
+    "corp-dynamic.c109": {
+        "key": "tabbedMenus",
+        "service": "api::sudlife-corp.tabbed-menus"
+    },
+    "corp-dynamic.c111": {
+        "key": "meetTheTeam",
+        "service": "api::sudlife-corp.meet-the-team"
+    },
+    "corp-dynamic.c105-fund-nav": {
+        "key": "fundNav",
+        "service": "api::sudlife-corp.fund-nav"
+    },
+    "corp-dynamic.c112": {
+        "key": "investorsFactsheet",
+        "service": "api::sudlife-corp.investors-factsheet"
+    },
+    "corp-dynamic.form-grievance": {
+        "key": "grievanceForm",
+        "service": "api::sudlife-corp.grievance-form"
+    },
+    "corp-dynamic.c113": {
+        "key": "careersSearch",
+        "service": "api::sudlife-corp.careers-search"
+    },
+    "corp-dynamic.lm-listing": {
+        "key": "learningModuleListing",
+        "service": "api::sudlife-corp.learning-module-listing"
+    },
+    "corp-dynamic.lm-component": {
+        "key": "learningModuleDetail",
+        "service": "api::sudlife-corp.learning-module-detail"
+    },
+    "corp-dynamic.c114": {
+        "key": "videoWithPointers",
+        "service": "api::sudlife-corp.video-with-pointers"
+    },
+    "corp-dynamic.c116": {
+        "key": "employeeSpeak",
+        "service": "api::sudlife-corp.employee-speak"
+    },
+    "corp-dynamic.c117": {
+        "key": "imagesWithQuotes",
+        "service": "api::sudlife-corp.images-with-quotes"
+    },
+    "corp-dynamic.c115": {
+        "key": "socialPosts",
+        "service": "api::sudlife-corp.social-posts"
+    },
+    "corp-dynamic.join-us-professional": {
+        "key": "joinUsProfessional",
+        "service": "api::sudlife-corp.join-us-professional"
+    },
+    "corp-dynamic.c118": {
+        "key": "navigation",
+        "service": "api::sudlife-corp.navigation"
+    },
+    "corp-dynamic.c119": {
+        "key": "learningModuleBanner",
+        "service": "api::sudlife-corp.learning-module-banner"
+    },
+    "corp-dynamic.c120-single-long-card": {
+        "key": "c120Component",
+        "service": "api::sudlife-corp.c120-single-long-card"
+    },
+    "corp-dynamic.lm-more-topics": {
+        "key": "learningModuleMoreTopics",
+        "service": "api::sudlife-corp.learning-module-more-topics"
+    },
+    "intranet-header.header": {
+        "key": "header",
+        "service": "api::sudlife-corp.intranet-header"
+    },
+    "intranet-footer.footer": {
+        "key": "footer",
+        "service": "api::sudlife-corp.intranet-footer"
+    },
+    "corp-dynamic.gift-city": {
+        "key": "giftCity",
+        "service": "api::sudlife-corp.gift-city"
+    },
+    "corp-dynamic.c121-cards-listing": {
+        "key": "cardsListing",
+        "service": "api::sudlife-corp.c121-cards"
+    },
+    "corp-dynamic.c61": {
+        "key": "haveAnIdea",
+        "service": "api::sudlife-corp.have-an-idea"
+    },
+    "corp-dynamic.c123": {
+        "key": "nestedTabs",
+        "service": "api::sudlife-corp.nested-tabs"
+    },
+    "corp-dynamic.c122": {
+        "key": "coiDownload",
+        "service": "api::sudlife-corp.coi-download"
+    },
+    "corp-dynamic.c125": {
+        "key": "employeeWish",
+        "service": "api::sudlife-corp.employee-wish"
+    },
+    "corp-dynamic.c124": {
+        "key": "globalSearch",
+        "service": "api::sudlife-corp.global-search"
+    },
+    "corp-dynamic.c128-settlement-ratio": {
+        "key": "settlementRatio",
+        "service": "api::sudlife-corp.settlement-ratio"
+    }
+}

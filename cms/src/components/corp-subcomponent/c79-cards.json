@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_corp_subcomponent_c79_cards",
+  "info": {
+    "displayName": "c79-cards"
+  },
+  "options": {},
+  "attributes": {
+    "highlightText": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

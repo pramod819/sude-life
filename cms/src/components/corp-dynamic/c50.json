@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_corp_dynamic_c50s",
+  "info": {
+    "displayName": "[C50] - Column cards with CTA",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c50-l1-card"
+    },
+    "importantPoints": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "importantPointHeading": {
+      "type": "string"
+    }
+  }
+}

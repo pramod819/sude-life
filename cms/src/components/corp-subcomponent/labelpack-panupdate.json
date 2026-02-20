@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_corp_subcomponent_labelpack_panupdates",
+  "info": {
+    "displayName": "Label Pack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Screen 1 Info Text",
+        "Screen 2 Info Text",
+        "Option Policy Text",
+        "Option Mobile Text",
+        "Option Email Text",
+        "Option Field Label",
+        "Date of Birth Field Label",
+        "Payer Name Field Label",
+        "Pan Number Field Label",
+        "Date of Birth Field Placeholder",
+        "Policy Placeholder",
+        "Mobile Placeholder",
+        "Email Placeholder",
+        "Pan Number Placeholder",
+        "Submit Button Text",
+        "Back Button text",
+        "Success Title",
+        "Success text",
+        "Success Info",
+        "Success Email Label",
+        "Success Phone Label"
+      ]
+    }
+  }
+}

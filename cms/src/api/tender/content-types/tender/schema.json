@@ -1,0 +1,44 @@
+{
+    "kind": "collectionType",
+    "collectionName": "tenders",
+    "info": {
+        "singularName": "tender",
+        "pluralName": "tenders",
+        "displayName": "Tender",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "rfpNumber": {
+            "type": "string",
+            "required": true
+        },
+        "tenderStatus": {
+            "type": "enumeration",
+            "enum": ["Upcoming", "Closing soon", "Active", "Closed"],
+            "required": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "issueDate": {
+            "type": "date",
+            "required": true
+        },
+        "submissionDate": {
+            "type": "date"
+        },
+        "document": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": ["files"]
+        },
+        "order": {
+            "type": "integer"
+        }
+    }
+}

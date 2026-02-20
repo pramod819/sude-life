@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_corp_dynamic_c9s",
+  "info": {
+    "displayName": "[C9] Text and Media",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "backgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "logos": {
+      "displayName": "logos",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c9-logo",
+      "max": 2
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "mediaType": {
+      "type": "enumeration",
+      "enum": [
+        "GIF",
+        "Video"
+      ]
+    },
+    "scanner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "scannerText": {
+      "type": "string"
+    }
+  }
+}

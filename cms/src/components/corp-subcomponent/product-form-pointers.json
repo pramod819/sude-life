@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_corp_subcomponent_product_form_pointers",
+  "info": {
+    "displayName": "productForm-pointers"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

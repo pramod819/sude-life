@@ -1,0 +1,179 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-header.c1",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "additional_logo_link",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "logo": {
+        "edit": {
+          "label": "Logo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "logo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "additional_logo": {
+        "edit": {
+          "label": "Additional Logo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "additional_logo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "options": {
+        "edit": {
+          "label": "Options",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "options",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "profile": {
+        "edit": {
+          "label": "Profile Link",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "profile",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "main_menu": {
+        "edit": {
+          "label": "Main Menu",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "main_menu",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "top_menu": {
+        "edit": {
+          "label": "Top Menu",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "top_menu",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "additional_logo_link": {
+        "edit": {
+          "label": "Additional Logo Link",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "additional_logo_link",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "logo",
+        "profile",
+        "top_menu"
+      ],
+      "edit": [
+        [
+          {
+            "name": "logo",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "main_menu",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "top_menu",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "options",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "profile",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "additional_logo",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "additional_logo_link",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "corp-header.c1",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

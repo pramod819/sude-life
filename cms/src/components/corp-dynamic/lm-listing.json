@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_corp_dynamic_lm_listings",
+  "info": {
+    "displayName": "[LM] Listing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "modules",
+        "video",
+        "finz"
+      ],
+      "default": "modules",
+      "required": true
+    },
+    "modules": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::learning-module-tag.learning-module-tag"
+    }
+  }
+}

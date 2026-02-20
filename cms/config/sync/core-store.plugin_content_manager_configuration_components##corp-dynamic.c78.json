@@ -1,0 +1,99 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-dynamic.c78",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "titleTags": {
+        "edit": {
+          "label": "Title Tags",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title Tags",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "backgroundImage": {
+        "edit": {
+          "label": "Background Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Background Image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "promoters": {
+        "edit": {
+          "label": "Promoters",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Promoters",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "titleTags",
+        "promoters",
+        "backgroundImage"
+      ],
+      "edit": [
+        [
+          {
+            "name": "titleTags",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "promoters",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "backgroundImage",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "uid": "corp-dynamic.c78",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

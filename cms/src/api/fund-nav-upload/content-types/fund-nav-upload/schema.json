@@ -1,0 +1,25 @@
+{
+    "kind": "collectionType",
+    "collectionName": "fund_nav_uploads",
+    "info": {
+        "singularName": "fund-nav-upload",
+        "pluralName": "fund-nav-uploads",
+        "displayName": "Fund Nav Upload",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "upload": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": ["files"]
+        },
+        "date": {
+            "type": "date"
+        }
+    }
+}

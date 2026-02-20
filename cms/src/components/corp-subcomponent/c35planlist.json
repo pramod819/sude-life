@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_corp_subcomponent_c35planlists",
+  "info": {
+    "displayName": "c35-Plan list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

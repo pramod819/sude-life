@@ -1,0 +1,77 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-subcomponent.people-designation",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "role": {
+        "edit": {
+          "label": "role",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "role",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "designation": {
+        "edit": {
+          "label": "designation",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "text"
+        },
+        "list": {
+          "label": "designation",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "role",
+        "designation"
+      ],
+      "edit": [
+        [
+          {
+            "name": "role",
+            "size": 6
+          },
+          {
+            "name": "designation",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "corp-subcomponent.people-designation",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

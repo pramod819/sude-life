@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_corp_subcomponent_c90_icon_texts",
+  "info": {
+    "displayName": "c90-icon-text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

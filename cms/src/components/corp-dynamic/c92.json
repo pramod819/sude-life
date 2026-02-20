@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_corp_dynamic_c92s",
+  "info": {
+    "displayName": "[C92] - Cards with background text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "subTitle": {
+      "type": "richtext"
+    },
+    "cards": {
+      "displayName": "c92-cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c92-cards",
+      "max": 16
+    },
+    "navigationId": {
+      "type": "string"
+    },
+    "subtitleBold": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    }
+  }
+}

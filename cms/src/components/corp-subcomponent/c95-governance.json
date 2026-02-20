@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_corp_subcomponent_c95_governances",
+  "info": {
+    "displayName": "c95-governance"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "documents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c95-documents"
+    }
+  }
+}

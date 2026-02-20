@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_corp_subcomponent_labelpack_dnds",
+  "info": {
+    "displayName": "labelpack-dnd",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "firstname",
+        "lastname",
+        "mobile",
+        "email",
+        "landline",
+        "pincode",
+        "state",
+        "city",
+        "button",
+        "success"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

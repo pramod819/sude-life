@@ -1,0 +1,159 @@
+{
+  "documentId": "dgjmnjuvo8jd6pnlylaszo9v",
+  "name": "Public",
+  "description": "Default role given to unauthenticated user.",
+  "type": "public",
+  "locale": null,
+  "permissions": [
+    {
+      "documentId": "ue96zueyyrego42g5brv020b",
+      "action": "api::branch-locator.branch-locator.getByLocality",
+      "locale": null
+    },
+    {
+      "documentId": "xeqi5y76upuwpg3t7i4qznzk",
+      "action": "api::branch-locator.branch-locator.getLocalities",
+      "locale": null
+    },
+    {
+      "documentId": "c6qrys2aqxrhd32xzluypdzp",
+      "action": "api::forms.external.jobList",
+      "locale": null
+    },
+    {
+      "documentId": "w61o0bvig99v88xu136u8dkw",
+      "action": "api::forms.forms.becomeAgent",
+      "locale": null
+    },
+    {
+      "documentId": "nmdtzpcmtei3vlb82ccc2rpv",
+      "action": "api::forms.forms.businessPartner",
+      "locale": null
+    },
+    {
+      "documentId": "o9xlj5y7b6gn60hop6bivw4k",
+      "action": "api::forms.forms.contactUs",
+      "locale": null
+    },
+    {
+      "documentId": "wsdr4bls8iqu3hc5s5c4v20p",
+      "action": "api::forms.forms.doNotDisturb",
+      "locale": null
+    },
+    {
+      "documentId": "zynxlulmm8up2mhi5f401drt",
+      "action": "api::forms.forms.joinOurTeam",
+      "locale": null
+    },
+    {
+      "documentId": "t3i5hi08elnlku78idlp5roa",
+      "action": "api::forms.forms.joinUs",
+      "locale": null
+    },
+    {
+      "documentId": "umm4nx6kfvnp4qz4iyqjqlnq",
+      "action": "api::forms.forms.joinUsProfessional",
+      "locale": null
+    },
+    {
+      "documentId": "umzqqbwakibjqpk9ndsx297h",
+      "action": "api::forms.forms.newsletter",
+      "locale": null
+    },
+    {
+      "documentId": "cgiazm182qhdxi46gc6wa6hz",
+      "action": "api::forms.forms.productForm",
+      "locale": null
+    },
+    {
+      "documentId": "iakuc7acg88yhphtpbn121td",
+      "action": "api::search.search.autocomplete",
+      "locale": null
+    },
+    {
+      "documentId": "pjlmpccsnstdpuv3jaypgn5p",
+      "action": "api::search.search.query",
+      "locale": null
+    },
+    {
+      "documentId": "mvlh8ofk7qcxgroa1c257lzu",
+      "action": "api::sudlife-corp.sudlife-corp.getBlogByFilter",
+      "locale": null
+    },
+    {
+      "documentId": "cqbnr10rwtj7hfyggx747o1e",
+      "action": "api::sudlife-corp.sudlife-corp.getFundByFilter",
+      "locale": null
+    },
+    {
+      "documentId": "vcgaj3nlkxkgv9zj9kpbwquv",
+      "action": "api::sudlife-corp.sudlife-corp.getFundDetails",
+      "locale": null
+    },
+    {
+      "documentId": "hbdr30rpj411snoi6jto0d3w",
+      "action": "api::sudlife-corp.sudlife-corp.getFundNavValue",
+      "locale": null
+    },
+    {
+      "documentId": "vpwnju31808nkotmc2pf6prv",
+      "action": "api::sudlife-corp.sudlife-corp.getInvestorDocument",
+      "locale": null
+    },
+    {
+      "documentId": "dfjagnjk6b9zzcv6z0kgwq39",
+      "action": "api::sudlife-corp.sudlife-corp.getInvestorFactsheet",
+      "locale": null
+    },
+    {
+      "documentId": "miupjuiifuw57l6i3fawhutz",
+      "action": "api::sudlife-corp.sudlife-corp.getPageAction",
+      "locale": null
+    },
+    {
+      "documentId": "nzwwmxsgbf275pmi28nmtvpv",
+      "action": "api::sudlife-corp.sudlife-corp.getSitemap",
+      "locale": null
+    },
+    {
+      "documentId": "klgtfnr4oga6bcdqdwrbtdbs",
+      "action": "api::sudlife-corp.sudlife-corp.saveRating",
+      "locale": null
+    },
+    {
+      "documentId": "zd8jk17vpb8sw9xlcg000edj",
+      "action": "plugin::users-permissions.auth.callback",
+      "locale": null
+    },
+    {
+      "documentId": "ims0saa808xm6gnv5jfdi10x",
+      "action": "plugin::users-permissions.auth.connect",
+      "locale": null
+    },
+    {
+      "documentId": "zzi8d8tsbjuzsxqw1mx4jyry",
+      "action": "plugin::users-permissions.auth.emailConfirmation",
+      "locale": null
+    },
+    {
+      "documentId": "ylc6dznb8xwnk1zg1hcwfem3",
+      "action": "plugin::users-permissions.auth.forgotPassword",
+      "locale": null
+    },
+    {
+      "documentId": "uobcyimuka6ltjrg0v5t9c6d",
+      "action": "plugin::users-permissions.auth.register",
+      "locale": null
+    },
+    {
+      "documentId": "iis3pf71d57mc6jyekpok8he",
+      "action": "plugin::users-permissions.auth.resetPassword",
+      "locale": null
+    },
+    {
+      "documentId": "ygee0zns2pt6c7jgucjg0dth",
+      "action": "plugin::users-permissions.auth.sendEmailConfirmation",
+      "locale": null
+    }
+  ]
+}

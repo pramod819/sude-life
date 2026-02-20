@@ -1,0 +1,58 @@
+{
+  "collectionName": "components_corp_footer_c2s",
+  "info": {
+    "displayName": "[Footer] Corp Site",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "productMenu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corp-subcomponent.c2-product-menu"
+    },
+    "quickLinks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corp-subcomponent.c2-quick-links"
+    },
+    "importantLinks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corp-subcomponent.c2-menu"
+    },
+    "otherLinks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corp-subcomponent.c2-other-links"
+    },
+    "followUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corp-subcomponent.c2-follow-us"
+    },
+    "disclaimer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corp-subcomponent.c2-text"
+    },
+    "infoSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corp-subcomponent.c2-info-section"
+    },
+    "copyright": {
+      "type": "text"
+    },
+    "stickyModule": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.sticky-module-l1"
+    }
+  }
+}

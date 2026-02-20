@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_corp_subcomponent_c22_cards",
+  "info": {
+    "displayName": "C22-l1-Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "bulletPoint": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c22-l2-bullet-points",
+      "max": 6
+    },
+    "description": {
+      "type": "text"
+    },
+    "subTitle": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_corp_dynamic_c67s",
+  "info": {
+    "displayName": "[C67] - Table component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "collapseTable": {
+      "type": "boolean",
+      "default": true
+    },
+    "table": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::assorted-table.assorted-table"
+    }
+  }
+}

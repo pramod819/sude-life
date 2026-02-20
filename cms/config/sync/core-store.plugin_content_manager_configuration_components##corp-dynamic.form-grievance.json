@@ -1,0 +1,119 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-dynamic.form-grievance",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "Online Portal Tab Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Online Portal Tab Title",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "labelpack": {
+        "edit": {
+          "label": "Label Pack",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Label Pack",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "info_cards": {
+        "edit": {
+          "label": "Other Tab Info Cards",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Other Tab Info Cards",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "tab2_title": {
+        "edit": {
+          "label": "Other Ways Tab Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Other Ways Tab Title",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "title",
+        "labelpack",
+        "info_cards"
+      ],
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "tab2_title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "labelpack",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "info_cards",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "uid": "corp-dynamic.form-grievance",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

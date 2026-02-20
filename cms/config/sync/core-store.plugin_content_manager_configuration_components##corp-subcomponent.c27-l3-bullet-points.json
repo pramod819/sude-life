@@ -1,0 +1,57 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-subcomponent.c27-l3-bullet-points",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "bulletPoint",
+      "defaultSortBy": "bulletPoint",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "bulletPoint": {
+        "edit": {
+          "label": "bulletPoint",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "bulletPoint",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "bulletPoint"
+      ],
+      "edit": [
+        [
+          {
+            "name": "bulletPoint",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "corp-subcomponent.c27-l3-bullet-points",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_corp_subcomponent_c20_bullet_points",
+  "info": {
+    "displayName": "Bullet Points",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

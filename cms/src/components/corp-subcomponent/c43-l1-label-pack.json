@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_corp_subcomponent_c43_l1_label_packs",
+  "info": {
+    "displayName": "C43-l1-labelPack"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "State Label",
+        "District Label",
+        "Locality Label",
+        "Reset Button",
+        "Get Direction Button",
+        "Branch Details Button"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

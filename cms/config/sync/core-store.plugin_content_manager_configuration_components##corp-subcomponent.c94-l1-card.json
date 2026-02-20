@@ -1,0 +1,137 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-subcomponent.c94-l1-card",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "name",
+      "defaultSortBy": "name",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "bgImage": {
+        "edit": {
+          "label": "Background Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Background Image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "transparentImage": {
+        "edit": {
+          "label": "Transparent Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Transparent Image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "quote": {
+        "edit": {
+          "label": "Quote",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Quote",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "name": {
+        "edit": {
+          "label": "Name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "designation": {
+        "edit": {
+          "label": "Designation",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Designation",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "bgImage",
+        "transparentImage",
+        "quote"
+      ],
+      "edit": [
+        [
+          {
+            "name": "bgImage",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "transparentImage",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "quote",
+            "size": 6
+          },
+          {
+            "name": "name",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "designation",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "corp-subcomponent.c94-l1-card",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

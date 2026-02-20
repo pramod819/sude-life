@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_corp_subcomponent_c95_uncliameds",
+  "info": {
+    "displayName": "c95-uncliamed",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c95-box-title-list"
+    },
+    "disclaimer": {
+      "type": "text"
+    },
+    "documents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c95-box-title-list"
+    }
+  }
+}

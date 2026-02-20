@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_corp_subcomponent_c81_l1_articles",
+  "info": {
+    "displayName": "C81-l1-articles"
+  },
+  "options": {},
+  "attributes": {
+    "article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::blog.blog"
+    }
+  }
+}

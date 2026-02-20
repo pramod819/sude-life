@@ -1,0 +1,34 @@
+{
+    "kind": "collectionType",
+    "collectionName": "join_uses",
+    "info": {
+        "singularName": "join-us",
+        "pluralName": "join-uses",
+        "displayName": "[Form] Join us"
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "first_name": {
+            "type": "string",
+            "required": true
+        },
+        "last_name": {
+            "type": "string",
+            "required": true
+        },
+        "mobile": {
+            "type": "string",
+            "required": true
+        },
+        "email": {
+            "type": "string",
+            "required": true
+        },
+        "city": {
+            "type": "string"
+        }
+    }
+}

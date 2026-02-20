@@ -1,0 +1,33 @@
+{
+    "kind": "collectionType",
+    "collectionName": "gift_cities",
+    "info": {
+        "singularName": "gift-city",
+        "pluralName": "gift-cities",
+        "displayName": "[Form] Gift city"
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "attributes": {
+        "first_name": {
+            "type": "string",
+            "required": true
+        },
+        "last_name": {
+            "type": "string",
+            "required": true
+        },
+        "mobile": {
+            "type": "string",
+            "required": true
+        },
+        "email": {
+            "type": "string",
+            "required": true
+        },
+        "country": {
+            "type": "string"
+        }
+    }
+}

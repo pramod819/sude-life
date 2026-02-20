@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_corp_dynamic_c76_disclaimers",
+  "info": {
+    "displayName": "[C76] - Disclaimers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "disclaimerTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "disclaimerPoints": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

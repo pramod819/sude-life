@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_corp_dynamic_c12_tabs",
+  "info": {
+    "displayName": "[C12] - FAQ With Vertical Tab",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "backgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "horizontalTab": {
+      "displayName": "c12-horizontal-tab",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c12-horizontal-tab"
+    }
+  }
+}

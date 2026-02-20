@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_corp_dynamic_c56s",
+  "info": {
+    "displayName": "[C56] - Two cards with CTA",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags",
+      "required": true
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "variation": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "pointers"
+      ],
+      "default": "default"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c56-l1-card"
+    }
+  }
+}

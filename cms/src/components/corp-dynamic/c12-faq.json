@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_corp_dynamic_c12_faqs",
+  "info": {
+    "displayName": "[C12] - FAQ With Tab",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "backgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "tabList": {
+      "displayName": "c12-faq-tab",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c12-faq-tab",
+      "max": 15
+    },
+    "navigationId": {
+      "type": "string"
+    }
+  }
+}

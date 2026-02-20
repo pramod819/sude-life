@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_corp_subcomponent_c15_navigation_buttons",
+  "info": {
+    "displayName": "C15-navigation-button"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "navigationId": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

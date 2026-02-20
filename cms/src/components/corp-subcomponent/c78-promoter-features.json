@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_corp_subcomponent_c78_promoter_features",
+  "info": {
+    "displayName": "c78-promoter-features"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "shortDescription": {
+      "type": "richtext"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

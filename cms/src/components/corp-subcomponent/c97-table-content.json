@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_corp_subcomponent_c97_table_contents",
+  "info": {
+    "displayName": "c97-tableContent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tableHeader": {
+      "type": "string"
+    },
+    "columnHeader1": {
+      "type": "string"
+    },
+    "columnHeader2": {
+      "type": "string"
+    },
+    "columnHeader3": {
+      "type": "string"
+    },
+    "columnHeader4": {
+      "type": "string"
+    },
+    "columnHeader5": {
+      "type": "string"
+    },
+    "columnHeader6": {
+      "type": "string"
+    },
+    "rows": {
+      "displayName": "c97-rows",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c97-rows"
+    },
+    "disclaimerText": {
+      "type": "text"
+    },
+    "columnHeader7": {
+      "type": "string"
+    }
+  }
+}

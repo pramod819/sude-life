@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_corp_subcomponent_c97_tabs",
+  "info": {
+    "displayName": "c97-tabs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tabText": {
+      "type": "string"
+    },
+    "header": {
+      "type": "string"
+    },
+    "tableContent": {
+      "displayName": "c97-tableContent",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c97-table-content"
+    },
+    "formDownload": {
+      "displayName": "c97-formDownload",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c97-form-download"
+    },
+    "faqList": {
+      "displayName": "c97-faq",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c97-faq"
+    },
+    "backgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    }
+  }
+}

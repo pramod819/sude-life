@@ -1,0 +1,239 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-footer.c2",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "logo": {
+        "edit": {
+          "label": "logo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "logo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "productMenu": {
+        "edit": {
+          "label": "productMenu",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "productMenu",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "quickLinks": {
+        "edit": {
+          "label": "quickLinks",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "quickLinks",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "importantLinks": {
+        "edit": {
+          "label": "importantLinks",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "importantLinks",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "otherLinks": {
+        "edit": {
+          "label": "otherLinks",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "otherLinks",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "followUs": {
+        "edit": {
+          "label": "followUs",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "followUs",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "disclaimer": {
+        "edit": {
+          "label": "disclaimer",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "disclaimer",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "infoSection": {
+        "edit": {
+          "label": "infoSection",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "infoSection",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "copyright": {
+        "edit": {
+          "label": "copyright",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "copyright",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "stickyModule": {
+        "edit": {
+          "label": "stickyModule",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "stickyModule",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "logo",
+        "productMenu",
+        "quickLinks"
+      ],
+      "edit": [
+        [
+          {
+            "name": "logo",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "productMenu",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "quickLinks",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "importantLinks",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "otherLinks",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "followUs",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "disclaimer",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "infoSection",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "copyright",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "stickyModule",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "uid": "corp-footer.c2",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

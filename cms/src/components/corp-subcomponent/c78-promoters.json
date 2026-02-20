@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_corp_subcomponent_c78_promoters",
+  "info": {
+    "displayName": "c78-promoters",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tabIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "promoterFeature": {
+      "displayName": "c78-promoter-features",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c78-promoter-features",
+      "max": 3
+    },
+    "featureLabel": {
+      "displayName": "c78-feature-label",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c78-feature-label",
+      "max": 4
+    }
+  }
+}

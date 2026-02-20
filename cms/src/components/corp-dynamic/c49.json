@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_corp_dynamic_c49s",
+  "info": {
+    "displayName": "[C49] - Scrolling Cards",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c49-l1-card"
+    },
+    "navigationId": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_corp_subcomponent_c44_l1_tabs",
+  "info": {
+    "displayName": "C44-l1-tab",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tabTitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "bulletPoint": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c20-bullet-points"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "isRightSideImage": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

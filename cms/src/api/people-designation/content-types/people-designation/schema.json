@@ -1,0 +1,18 @@
+{
+    "kind": "collectionType",
+    "collectionName": "people_designations",
+    "info": {
+        "singularName": "people-designation",
+        "pluralName": "people-designations",
+        "displayName": "People Designation"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "text": {
+            "type": "string"
+        }
+    }
+}

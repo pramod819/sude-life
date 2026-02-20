@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_corp_subcomponent_giftcity_bullet_points",
+  "info": {
+    "displayName": "giftcity-bulletPoints"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_common_ctas",
+  "info": {
+    "displayName": "cta",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "opt": {
+      "type": "customField",
+      "options": [
+        "Open in New Window:newWindow",
+        "Email Link:email",
+        "Telephone Link:telephone",
+        "Primary CTA:primary",
+        "Secondary CTA:secondary",
+        "Download Link:download",
+        "CTA Link:ctaLink"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    }
+  }
+}

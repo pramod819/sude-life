@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_corp_subcomponent_c25_l1_cards",
+  "info": {
+    "displayName": "C25-l1-Card"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

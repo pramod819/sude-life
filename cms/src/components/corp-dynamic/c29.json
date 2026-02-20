@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_corp_dynamic_c29s",
+  "info": {
+    "displayName": "[C29] - Glossary",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "bgImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "plan": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::plan-sub-category.plan-sub-category"
+    }
+  }
+}

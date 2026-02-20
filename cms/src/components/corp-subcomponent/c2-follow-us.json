@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_corp_subcomponent_c2_followuses",
+  "info": {
+    "displayName": "C2-FollowUs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "portalLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "socialIcons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c2-social",
+      "max": 5
+    },
+    "portalLogoLink": {
+      "type": "string"
+    }
+  }
+}

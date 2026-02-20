@@ -1,0 +1,49 @@
+{
+  "documentId": "oxdc4zhg5i01nsnl9oaqm5di",
+  "name": "Authenticated",
+  "description": "Default role given to authenticated user.",
+  "type": "authenticated",
+  "locale": null,
+  "permissions": [
+    {
+      "documentId": "qtsgmfn2at32frl75af5wwtj",
+      "action": "api::forms.external.customerLogin",
+      "locale": null
+    },
+    {
+      "documentId": "d3rfdhvlhqa73g5ul7ywnxzw",
+      "action": "api::forms.external.fatcaUpdate",
+      "locale": null
+    },
+    {
+      "documentId": "hegwgakm1zn7gtymr3aqxrah",
+      "action": "api::forms.external.panUpdate",
+      "locale": null
+    },
+    {
+      "documentId": "c4efzxqfts146g92nyqghbmd",
+      "action": "api::forms.external.payment",
+      "locale": null
+    },
+    {
+      "documentId": "z3x2d7inr9fkwoigereb0exf",
+      "action": "api::sudlife-corp.sudlife-corp.saveLike",
+      "locale": null
+    },
+    {
+      "documentId": "an8480wb183hkiy6vw3rrrc9",
+      "action": "api::sudlife-corp.sudlife-corp.saveView",
+      "locale": null
+    },
+    {
+      "documentId": "xai3rxwa1bs6hanbwpum22xh",
+      "action": "plugin::upload.content-api.upload",
+      "locale": null
+    },
+    {
+      "documentId": "h7nrj422txeo2h5l0wrmc9p2",
+      "action": "plugin::users-permissions.user.me",
+      "locale": null
+    }
+  ]
+}

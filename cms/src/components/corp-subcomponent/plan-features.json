@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_corp_subcomponent_plan_features",
+  "info": {
+    "displayName": "planFeatures"
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "type": "string"
+    }
+  }
+}

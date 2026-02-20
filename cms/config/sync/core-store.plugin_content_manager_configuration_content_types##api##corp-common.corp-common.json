@@ -1,0 +1,196 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::corp-common.corp-common",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "page_404",
+      "defaultSortBy": "page_404",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "page_404": {
+        "edit": {
+          "label": "404 Page ",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "page_404",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "cmp_header": {
+        "edit": {
+          "label": "Header",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cmp_header",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "cmp_footer": {
+        "edit": {
+          "label": "Footer",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cmp_footer",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "page_global_search": {
+        "edit": {
+          "label": "Global Search Page",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "page_global_search",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "most_searched_keywords": {
+        "edit": {
+          "label": "Most Searched Keywords",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "most_searched_keywords",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "page_404",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "page_global_search",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "most_searched_keywords",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "cmp_header",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "cmp_footer",
+            "size": 12
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "page_404",
+        "createdAt",
+        "updatedAt"
+      ]
+    },
+    "uid": "api::corp-common.corp-common"
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

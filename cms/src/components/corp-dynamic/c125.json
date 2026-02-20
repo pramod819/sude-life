@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_corp_dynamic_c125s",
+  "info": {
+    "displayName": "c125",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "shortDescription": {
+      "type": "text"
+    },
+    "labelPack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c125-label-pack"
+    },
+    "variation": {
+      "type": "enumeration",
+      "enum": [
+        "Birthdays",
+        "Work Anniversaries",
+        "New Joinees"
+      ]
+    },
+    "navigationId": {
+      "type": "string"
+    }
+  }
+}

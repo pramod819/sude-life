@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_corp_dynamic_c60s",
+  "info": {
+    "displayName": "[C60] - Media Template",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c60-l1-tab"
+    }
+  }
+}

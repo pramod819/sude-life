@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_corp_subcomponent_c1_l4_links",
+  "info": {
+    "displayName": "c1-l4-link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "benefit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corp-subcomponent.c1-benefit"
+    }
+  }
+}

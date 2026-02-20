@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_corp_dynamic_c64s",
+  "info": {
+    "displayName": "[C64] - Video Carousel Component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "slides": {
+      "displayName": "c64-l1-item",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c64-l1-item"
+    }
+  }
+}

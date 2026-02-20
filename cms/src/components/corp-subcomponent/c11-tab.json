@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_corp_subcomponent_c11_tabs",
+  "info": {
+    "displayName": "C11-Tab",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "image",
+        "video"
+      ],
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "images": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.media-img",
+      "max": 16
+    },
+    "videoids": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c11-video-ids",
+      "max": 16
+    }
+  }
+}

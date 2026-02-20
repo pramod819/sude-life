@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_corp_dynamic_c32s",
+  "info": {
+    "displayName": "[C32] - How it works",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "tab": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c32-l1-tab",
+      "max": 4
+    }
+  }
+}

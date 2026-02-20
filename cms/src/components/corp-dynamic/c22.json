@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_corp_dynamic_c22s",
+  "info": {
+    "displayName": "[C22] - Card Slider"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "bgImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c22-card",
+      "max": 12
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_corp_subcomponent_c118_l1_items",
+  "info": {
+    "displayName": "C118-l1-item"
+  },
+  "options": {},
+  "attributes": {
+    "navigationId": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

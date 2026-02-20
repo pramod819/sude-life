@@ -1,0 +1,39 @@
+{
+    "kind": "collectionType",
+    "collectionName": "become_an_agents",
+    "info": {
+        "singularName": "become-an-agent",
+        "pluralName": "become-an-agents",
+        "displayName": "[Form] Become an agent",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "mobile": {
+            "type": "string",
+            "required": true
+        },
+        "source": {
+            "type": "string"
+        },
+        "medium": {
+            "type": "string"
+        },
+        "campaign": {
+            "type": "string"
+        },
+        "content": {
+            "type": "string"
+        },
+        "term": {
+            "type": "string"
+        }
+    }
+}

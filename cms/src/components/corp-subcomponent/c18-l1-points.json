@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_corp_subcomponent_c18_l1_points",
+  "info": {
+    "displayName": "C18-l1-points"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

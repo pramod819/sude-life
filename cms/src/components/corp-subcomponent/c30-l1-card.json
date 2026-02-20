@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_corp_subcomponent_c30_l1_cards",
+  "info": {
+    "displayName": "C30-l1-Card"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

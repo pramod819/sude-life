@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_corp_subcomponent_join_our_team_label_packs",
+  "info": {
+    "displayName": "joinOurTeam-LabelPack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "full_name",
+        "mobile",
+        "email",
+        "department",
+        "message",
+        "resume",
+        "formats",
+        "size",
+        "button_text",
+        "success"
+      ],
+      "required": true
+    },
+    "text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

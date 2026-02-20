@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_corp_dynamic_c120_single_long_cards",
+  "info": {
+    "displayName": "[C120] - Single long card"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "BackgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    }
+  }
+}

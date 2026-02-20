@@ -1,0 +1,23 @@
+{
+    "kind": "collectionType",
+    "collectionName": "nav_products",
+    "info": {
+        "singularName": "nav-product",
+        "pluralName": "nav-products",
+        "displayName": "Nav Product",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "type": {
+            "type": "enumeration",
+            "enum": ["General", "NRI"]
+        }
+    }
+}

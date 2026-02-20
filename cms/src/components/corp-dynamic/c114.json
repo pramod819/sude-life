@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_corp_dynamic_c114s",
+  "info": {
+    "displayName": "[C114][CMS] - Video with pointers"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "pointers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c114-l1-item"
+    },
+    "navigationId": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_corp_subcomponent_c27_l3_bullet_points",
+  "info": {
+    "displayName": " C27-l3-bulletPoints"
+  },
+  "options": {},
+  "attributes": {
+    "bulletPoint": {
+      "type": "string"
+    }
+  }
+}

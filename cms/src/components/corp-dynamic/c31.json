@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_corp_dynamic_c31s",
+  "info": {
+    "displayName": "[C31] - Eligibility"
+  },
+  "options": {},
+  "attributes": {
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "eligibility": {
+      "displayName": "c31-Eligibility",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c31-eligibility",
+      "max": 3
+    }
+  }
+}

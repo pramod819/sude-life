@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_corp_dynamic_c5s",
+  "info": {
+    "displayName": "[C5] - Testimonials",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": false
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "authors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::author.author"
+    },
+    "backgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "quoteImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "navigationId": {
+      "type": "string"
+    },
+    "transparentText": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_corp_dynamic_nested_tab_documents",
+  "info": {
+    "displayName": "Document"
+  },
+  "options": {},
+  "attributes": {
+    "document": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

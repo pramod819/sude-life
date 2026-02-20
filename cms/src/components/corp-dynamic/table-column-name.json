@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_corp_dynamic_table_column_names",
+  "info": {
+    "displayName": "[Table] Header"
+  },
+  "options": {},
+  "attributes": {
+    "columnNames": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c90-l1-title",
+      "max": 3
+    }
+  }
+}

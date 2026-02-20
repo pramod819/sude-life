@@ -1,0 +1,76 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-subcomponent.c90-l3-table-heading",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "columnOne",
+      "defaultSortBy": "columnOne",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "columnOne": {
+        "edit": {
+          "label": "columnOne",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "columnOne",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "columnTwo": {
+        "edit": {
+          "label": "columnTwo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "columnTwo",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "columnOne",
+        "columnTwo"
+      ],
+      "edit": [
+        [
+          {
+            "name": "columnOne",
+            "size": 6
+          },
+          {
+            "name": "columnTwo",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "corp-subcomponent.c90-l3-table-heading",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

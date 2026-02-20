@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_corp_dynamic_c44s",
+  "info": {
+    "displayName": "[C44] - Horizontal Tabs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c44-l1-tab",
+      "max": 8
+    },
+    "shortDescription": {
+      "type": "richtext"
+    }
+  }
+}

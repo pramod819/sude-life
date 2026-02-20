@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_corp_dynamic_c87s",
+  "info": {
+    "displayName": "[C87] - Tabs with text & image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tabs": {
+      "displayName": "c87-tabs",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c87-tabs",
+      "max": 8
+    }
+  }
+}

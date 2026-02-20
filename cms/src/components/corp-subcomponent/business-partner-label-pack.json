@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_corp_subcomponent_business_partner_label_packs",
+  "info": {
+    "displayName": "businessPartner-labelPack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "name",
+        "mobile",
+        "email",
+        "city",
+        "button",
+        "success"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

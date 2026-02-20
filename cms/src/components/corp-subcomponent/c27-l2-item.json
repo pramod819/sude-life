@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_corp_subcomponent_c27_l2_items",
+  "info": {
+    "displayName": "C27-l2-item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "bulletPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c27-l3-bullet-points"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_corp_subcomponent_c114_l1_items",
+  "info": {
+    "displayName": "C114-l1-item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "videoThumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "benefits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c114-l2-benefit",
+      "max": 4
+    }
+  }
+}

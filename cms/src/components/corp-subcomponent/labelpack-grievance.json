@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_corp_subcomponent_labelpack_grievances",
+  "info": {
+    "displayName": "labelpack-grievance"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "First Name Field Label",
+        "Last Name Field Label",
+        "Policy Number Field Label",
+        "Date of Birth Field Label",
+        "Mobile Field Label",
+        "Contact Number Country Field Label",
+        "Message Field Label",
+        "Customer Type Field Label",
+        "Submit Button Text",
+        "Cancel Button text",
+        "OTP Button text",
+        "OTP Window Heading",
+        "OTP Window Info",
+        "OTP Window Help",
+        "OTP Window Change No",
+        "OTP Window Resend",
+        "OTP Window Button text",
+        "OTP Button text",
+        "First Name Place Holder",
+        "Last Name Place Holder",
+        "Policy Number Place Holder",
+        "Date of Birth Place Holder",
+        "Mobile Place Holder",
+        "Contact Number Place Holder",
+        "Form Info Text",
+        "Tab Online Portal Text",
+        "Tab Other Ways Text",
+        "Tab Online Portal Sub Title"
+      ]
+    }
+  }
+}

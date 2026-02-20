@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_corp_dynamic_c116s",
+  "info": {
+    "displayName": "[C116] - Employee Speak",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "employeeList": {
+      "displayName": "c116-employee-list",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c116-employee-list"
+    }
+  }
+}

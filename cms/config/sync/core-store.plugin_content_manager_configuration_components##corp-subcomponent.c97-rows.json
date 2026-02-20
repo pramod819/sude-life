@@ -1,0 +1,173 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-subcomponent.c97-rows",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "columnData1",
+      "defaultSortBy": "columnData1",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "columnData1": {
+        "edit": {
+          "label": "Column Data1",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Column Data1",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "columnData2": {
+        "edit": {
+          "label": "Column Data2",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Column Data2",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "columnData3": {
+        "edit": {
+          "label": "Column Data3",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Column Data3",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "columnData4": {
+        "edit": {
+          "label": "Column Data4",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Column Data4",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "columnData5": {
+        "edit": {
+          "label": "Column Data5",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Column Data5",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "columnData6": {
+        "edit": {
+          "label": "Column Data6",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Column Data6",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "columnData7": {
+        "edit": {
+          "label": "Column Data7",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Column Data7",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "columnData1",
+        "columnData2",
+        "columnData3"
+      ],
+      "edit": [
+        [
+          {
+            "name": "columnData1",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "columnData2",
+            "size": 6
+          },
+          {
+            "name": "columnData3",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "columnData4",
+            "size": 6
+          },
+          {
+            "name": "columnData5",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "columnData6",
+            "size": 6
+          },
+          {
+            "name": "columnData7",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "corp-subcomponent.c97-rows",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

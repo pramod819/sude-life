@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_corp_dynamic_c99s",
+  "info": {
+    "displayName": "[C99] - Media Queries",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "mediaQueries": {
+      "displayName": "c99-media-query",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c99-media-query"
+    }
+  }
+}

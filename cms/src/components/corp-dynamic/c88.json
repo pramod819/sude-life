@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_corp_dynamic_c88s",
+  "info": {
+    "displayName": "[C88] - Help Component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "subTitle": {
+      "type": "richtext"
+    },
+    "contactUsList": {
+      "displayName": "c88-contact-us-list",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c88-contact-us-list"
+    }
+  }
+}

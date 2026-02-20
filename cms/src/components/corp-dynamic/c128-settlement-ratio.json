@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_corp_dynamic_c128_settlement_ratios",
+  "info": {
+    "displayName": "[C128] - Settlement ratio"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "description": {
+      "type": "string"
+    },
+    "years": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c128-year-value"
+    }
+  }
+}

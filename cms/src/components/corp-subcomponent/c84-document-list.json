@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_corp_subcomponent_c84_document_lists",
+  "info": {
+    "displayName": "c84-document-list"
+  },
+  "options": {},
+  "attributes": {
+    "documentName": {
+      "type": "string"
+    },
+    "document": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "kind": "collectionType",
+    "collectionName": "plan_categories",
+    "info": {
+        "singularName": "plan-category",
+        "pluralName": "plan-categories",
+        "displayName": "Plan Category",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true,
+            "unique": true
+        }
+    }
+}

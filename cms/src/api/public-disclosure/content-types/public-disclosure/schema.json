@@ -1,0 +1,46 @@
+{
+    "kind": "collectionType",
+    "collectionName": "public_disclosures",
+    "info": {
+        "singularName": "public-disclosure",
+        "pluralName": "public-disclosures",
+        "displayName": "Public Disclosure",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "financial_year": {
+            "type": "string"
+        },
+        "type": {
+            "type": "enumeration",
+            "enum": ["Public", "Voting"]
+        },
+        "year": {
+            "type": "string"
+        },
+        "q1": {
+            "allowedTypes": ["files"],
+            "type": "media",
+            "multiple": false
+        },
+        "q2": {
+            "allowedTypes": ["files"],
+            "type": "media",
+            "multiple": false
+        },
+        "q3": {
+            "allowedTypes": ["files"],
+            "type": "media",
+            "multiple": false
+        },
+        "q4": {
+            "allowedTypes": ["files"],
+            "type": "media",
+            "multiple": false
+        }
+    }
+}

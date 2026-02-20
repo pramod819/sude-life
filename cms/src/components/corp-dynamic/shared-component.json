@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_corp_dynamic_shared_components",
+  "info": {
+    "displayName": "Shared Component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::shared-component.shared-component"
+    }
+  }
+}

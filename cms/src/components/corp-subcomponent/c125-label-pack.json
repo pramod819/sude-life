@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_corp_subcomponent_c125_label_packs",
+  "info": {
+    "displayName": "C125-labelPack"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "name",
+        "date",
+        "designation",
+        "department"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

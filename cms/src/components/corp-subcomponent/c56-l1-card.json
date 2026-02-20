@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_corp_subcomponent_c56_l1_cards",
+  "info": {
+    "displayName": "C56-l1-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgColour": {
+      "type": "string"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "titleBottom": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "pointers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c56-l2-pointers"
+    }
+  }
+}

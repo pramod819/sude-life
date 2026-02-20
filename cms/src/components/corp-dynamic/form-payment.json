@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_corp_dynamic_form_payments",
+  "info": {
+    "displayName": "[Form] Payment",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "labelpack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.labelpack-payment"
+    }
+  }
+}

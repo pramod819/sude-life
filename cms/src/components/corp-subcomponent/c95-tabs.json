@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_corp_subcomponent_c95_tabs",
+  "info": {
+    "displayName": "c95-tabs"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "financial_year": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corp-subcomponent.c95-collection"
+    },
+    "uncliamed": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corp-subcomponent.c95-uncliamed"
+    },
+    "governance": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corp-subcomponent.c95-governance"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_corp_dynamic_c74s",
+  "info": {
+    "displayName": "[C74] - Accordion with image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Myth",
+        "Mistake"
+      ],
+      "default": "Myth"
+    },
+    "accordion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c74-l1-items"
+    }
+  }
+}

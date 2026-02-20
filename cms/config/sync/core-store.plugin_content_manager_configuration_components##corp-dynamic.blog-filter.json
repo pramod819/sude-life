@@ -1,0 +1,158 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-dynamic.blog-filter",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "blog_category": {
+        "edit": {
+          "label": "Blog Category",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "Blog Category",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "filter": {
+        "edit": {
+          "label": "Filter",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Filter",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "labelPack": {
+        "edit": {
+          "label": "Label Pack",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Label Pack",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "displayFormat": {
+        "edit": {
+          "label": "Display Format",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Display Format",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "cta": {
+        "edit": {
+          "label": "CTA",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "CTA",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "title",
+        "blog_category",
+        "filter"
+      ],
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "blog_category",
+            "size": 6
+          },
+          {
+            "name": "filter",
+            "size": 4
+          }
+        ],
+        [
+          {
+            "name": "labelPack",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "displayFormat",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "cta",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "uid": "corp-dynamic.blog-filter",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

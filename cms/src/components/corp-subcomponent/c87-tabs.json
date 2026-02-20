@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_corp_subcomponent_c87_tabs",
+  "info": {
+    "displayName": "c87-tabs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tabText": {
+      "type": "string"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "pointerTitle": {
+      "type": "string"
+    },
+    "points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c87-points",
+      "max": 12
+    }
+  }
+}

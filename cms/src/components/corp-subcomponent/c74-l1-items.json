@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_corp_subcomponent_c74_l1_items",
+  "info": {
+    "displayName": "C74-l1-items"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

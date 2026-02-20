@@ -1,0 +1,40 @@
+.MuiPickersBasePicker-pickerView {
+    background-color: #e3e1db;
+    color: #0d0f0d;
+    .MuiPickersDay-day {
+        color: #0d0f0d;
+    }
+    .MuiPickersDay-dayDisabled {
+        color: #0d0f0d;
+        pointer-events: none;
+        opacity: 0.5;
+    }
+    .MuiPickersCalendarHeader-switchHeader {
+        .MuiTypography-root {
+            font-size: 1.2rem;
+            color: #0d0f0d;
+        }
+    }
+    .MuiPickersDay-current {
+        color: #b16a32;
+    }
+    .MuiPickersDay-daySelected {
+        background-color: #b16a32;
+        color: #e3e1db;
+    }
+    .MuiPickersCalendarHeader-daysHeader {
+        .MuiPickersCalendarHeader-dayLabel {
+            color: #0d0f0d;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+.MuiMenu-list {
+    background-color: #e3e1db;
+    color: #0d0f0d;
+    .MuiMenuItem-root {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_corp_subcomponent_c60_l1_tabs",
+  "info": {
+    "displayName": "C60-l1-tab",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::media-tag.media-tag"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_corp_subcomponent_c26_icon_lists",
+  "info": {
+    "displayName": "c26IconList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

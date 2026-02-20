@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_corp_dynamic_c35s",
+  "info": {
+    "displayName": "[C35] - Text + Image for Plans",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleTags": {
+      "type": "component",
+      "component": "common.title-tags"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "planList": {
+      "displayName": "c35 Plan List",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c35planlist",
+      "max": 4,
+      "min": 2,
+      "required": true
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "bgimage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    }
+  }
+}

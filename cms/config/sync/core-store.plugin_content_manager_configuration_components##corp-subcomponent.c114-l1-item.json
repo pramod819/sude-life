@@ -1,0 +1,97 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-subcomponent.c114-l1-item",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "videoThumbnail": {
+        "edit": {
+          "label": "Thumbnail",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Video Thumbnail",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "video": {
+        "edit": {
+          "label": "Video",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Video",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "benefits": {
+        "edit": {
+          "label": "Benefits",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Benefits",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "videoThumbnail",
+        "video",
+        "benefits"
+      ],
+      "edit": [
+        [
+          {
+            "name": "videoThumbnail",
+            "size": 6
+          },
+          {
+            "name": "video",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "benefits",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "uid": "corp-subcomponent.c114-l1-item",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

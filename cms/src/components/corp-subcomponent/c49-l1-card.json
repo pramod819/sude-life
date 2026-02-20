@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_corp_subcomponent_c49_l1_cards",
+  "info": {
+    "displayName": "C49-l1-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "bgColour": {
+      "type": "string"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    }
+  }
+}

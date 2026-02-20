@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_corp_dynamic_c27s",
+  "info": {
+    "displayName": "[C27] - Plan features",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "bgColour": {
+      "type": "string"
+    },
+    "feature": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c27-l1-feature",
+      "max": 16
+    }
+  }
+}

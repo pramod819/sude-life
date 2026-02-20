@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_corp_subcomponent_c6cards",
+  "info": {
+    "displayName": "C6 Card"
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "title": {
+      "type": "string"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

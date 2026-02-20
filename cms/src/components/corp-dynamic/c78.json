@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_corp_dynamic_c78s",
+  "info": {
+    "displayName": "[C78] - Promoters in tab format",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "backgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "promoters": {
+      "displayName": "c78-promoters",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c78-promoters",
+      "max": 3
+    }
+  }
+}

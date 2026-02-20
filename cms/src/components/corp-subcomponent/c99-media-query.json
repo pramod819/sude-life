@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_corp_subcomponent_c99_media_queries",
+  "info": {
+    "displayName": "c99-media-query",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "boxTitle": {
+      "type": "string"
+    },
+    "boxType": {
+      "type": "enumeration",
+      "enum": [
+        "Phone Number",
+        "Email",
+        "Text"
+      ],
+      "required": true
+    },
+    "boxText": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

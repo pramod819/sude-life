@@ -1,0 +1,299 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::branch.branch",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "name",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "name": {
+        "edit": {
+          "label": "Name",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Name",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "slug": {
+        "edit": {
+          "label": "Slug",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": false
+        },
+        "list": {
+          "label": "Slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "address": {
+        "edit": {
+          "label": "Address",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Address",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "district": {
+        "edit": {
+          "label": "District",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "District",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "locality": {
+        "edit": {
+          "label": "Locality",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Locality",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "coordinates": {
+        "edit": {
+          "label": "Coordinates",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Coordinates",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "banner": {
+        "edit": {
+          "label": "Banner",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Banner",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "amenities": {
+        "edit": {
+          "label": "Amenities",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Amenities",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "amenitiesTitle": {
+        "edit": {
+          "label": "Amenities Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Amenities Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "amenitiesBgImage": {
+        "edit": {
+          "label": "Amenities Background Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Amenities Background Image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "Created At",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "Created At",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "Updated At",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "Updated At",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "Created By",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "Created By",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "Updated By",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "Updated By",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "name",
+        "slug",
+        "district",
+        "locality",
+        "createdAt"
+      ],
+      "edit": [
+        [
+          {
+            "name": "name",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "slug",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "address",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "district",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "locality",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "coordinates",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "banner",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "amenities",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "amenitiesTitle",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "amenitiesBgImage",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "uid": "api::branch.branch"
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

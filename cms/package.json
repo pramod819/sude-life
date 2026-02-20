@@ -1,0 +1,67 @@
+{
+    "name": "Sudlife",
+    "private": true,
+    "version": "0.1.0",
+    "description": "Sudlife headless CMS",
+    "scripts": {
+        "develop": "strapi develop",
+        "start": "NODE_ENV=production ENV=production strapi start",
+        "build": "strapi build",
+        "build-production": "NODE_ENV=production ENV=production strapi build",
+        "strapi": "strapi",
+        "cs": "config-sync",
+        "lint": "eslint .",
+        "format": "prettier --check .",
+        "format:fix": "prettier --write --list-different ."
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.7.0",
+        "@strapi/sdk-plugin": "^5.2.7",
+        "@types/node": "^22.9.3",
+        "@typescript-eslint/eslint-plugin": "^7.16.1",
+        "@typescript-eslint/parser": "^7.16.1",
+        "eslint": "^9.22.0",
+        "eslint-config-prettier": "^10.1.1",
+        "eslint-plugin-prettier": "^5.2.3",
+        "globals": "^15.8.0",
+        "prettier": "^3.3.3",
+        "typescript-eslint": "^8.27.0"
+    },
+    "dependencies": {
+        "@opensearch-project/opensearch": "^1.0.2",
+        "@_sh/strapi-plugin-ckeditor": "^5.0.1",
+        "@notum-cz/strapi-plugin-record-locking": "^2.0.0",
+        "@strapi/plugin-cloud": "^5.11.0",
+        "@strapi/plugin-seo": "^2.0.4",
+        "@strapi/plugin-users-permissions": "^5.11.0",
+        "@strapi/provider-upload-aws-s3": "^5.11.0",
+        "@strapi/strapi": "^5.11.0",
+        "@types/validator": "^13.12.2",
+        "csv-parser": "^3.2.0",
+        "fs": "^0.0.1-security",
+        "marked": "^15.0.1",
+        "mysql2": "^3.11.4",
+        "otp-agent": "^3.3.0",
+        "path": "^0.12.7",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "react-router-dom": "^6.0.0",
+        "sharp": "^0.33.5",
+        "slugify": "^1.6.6",
+        "strapi-health-plugin": "^1.1.1",
+        "strapi-plugin-config-sync": "^3.0.4",
+        "strapi-plugin-multi-select": "^2.1.1",
+        "strapi-plugin-webp-converter": "^1.0.3",
+        "styled-components": "^6.1.13",
+        "xmlbuilder2": "^3.1.1"
+    },
+    "strapi": {
+        "uuid": "2b9d8133-c87b-4f70-b833-bdab587195df"
+    },
+    "engines": {
+        "node": ">=18.0.0 <=20.x.x",
+        "npm": ">=6.0.0"
+    },
+    "license": "MIT",
+    "main": "index.js"
+}

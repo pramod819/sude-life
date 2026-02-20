@@ -1,0 +1,38 @@
+{
+    "kind": "collectionType",
+    "collectionName": "assorted_tables",
+    "info": {
+        "singularName": "assorted-table",
+        "pluralName": "assorted-tables",
+        "displayName": "Assorted Table",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "header": {
+            "type": "component",
+            "repeatable": true,
+            "component": "corp-subcomponent.c90-l1-title",
+            "max": 3,
+            "required": true
+        },
+        "table": {
+            "type": "dynamiczone",
+            "components": [
+                "corp-dynamic.collapsable-standard-text",
+                "corp-dynamic.collapsable-table"
+            ]
+        },
+        "tableName": {
+            "type": "string",
+            "required": true
+        },
+        "hideHeader": {
+            "type": "boolean",
+            "default": false
+        }
+    }
+}

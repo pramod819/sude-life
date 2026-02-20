@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_corp_dynamic_c36s",
+  "info": {
+    "displayName": "[C36] - Full width banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img",
+      "required": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.cta",
+      "max": 2
+    }
+  }
+}

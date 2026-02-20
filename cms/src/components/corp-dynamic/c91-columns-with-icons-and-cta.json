@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_corp_dynamic_c91_columns_with_icons_and_ctas",
+  "info": {
+    "displayName": "[C91] - Columns with Icons and CTA"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cardWithIcon": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c57-card-with-icon",
+      "max": 21
+    }
+  }
+}

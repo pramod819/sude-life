@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_corp_dynamic_c72s",
+  "info": {
+    "displayName": "[C72] - Pointers with Text"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "texts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c72-l1-text",
+      "max": 16
+    }
+  }
+}

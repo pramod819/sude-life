@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_corp_subcomponent_c98_l1_cards",
+  "info": {
+    "displayName": "C98-l1-card"
+  },
+  "options": {},
+  "attributes": {
+    "documentTitle": {
+      "type": "string"
+    },
+    "document": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

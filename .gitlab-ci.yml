@@ -1,0 +1,448 @@
+image: ekino/ci-node:20-2024.05.31
+
+stages:
+  - danger
+  - build
+  - test
+  - deploy
+  - publish
+
+variables:
+  DOCKER_IMAGE_REPO: 484907521651.dkr.ecr.ap-south-1.amazonaws.com
+  AWS_DEFAULT_REGION: ap-south-1
+  DEPLOYMENT_ROLE_ARN: arn:aws:iam::484907521651:role/ApplicationDeployerWeb
+  DOCKER_IMAGE_TAG: $CI_COMMIT_SHORT_SHA
+  PROJECT_NAME: sudlife
+  SERVICE_NAME: web-ecs
+  DOCKER_USER: AWS
+
+services:
+  - ekino/ci-node:20-2024.05.31
+
+danger:
+  stage: danger
+  image: ruby:3.2
+  tags:  [docker, ekino, france]
+  allow_failure: false
+  interruptible: true
+  before_script:
+    - apt-get install git
+    - ruby --version
+    - gem install bundler -v 2.2.26
+    - bundle install
+  script:
+    - echo "Ensuring danger output not empty" > /tmp/danger.txt
+    - bundle exec danger --fail-on-errors=true | tee -a /tmp/danger.txt
+    - if grep -q "Not a GitLabCI Pull Request" /tmp/danger.txt; then echo "Not a GitLabCI Merge Request, please re-run in a Merge Request"; exit 1; fi
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME =~ /^develop$|^main$|^release-uat$|^uat$/
+
+#********************Build**************#
+
+.build_cms_template:
+  tags: [docker, ekino, france]
+  image: node:20-alpine3.21
+  artifacts:
+    paths:
+      - cms
+      - infra
+  script:
+    - sed "s,#UID#,82,g" .env.dist > .env
+    - cp infra/images/cms/$ENV_LABEL/middlewares.ts cms/config/middlewares.ts
+    - cp infra/images/cms/plugins.ts cms/config/plugins.ts
+    - cp infra/images/cms/.env.$ENV_LABEL cms/.env
+    - apk add --no-cache make python3 g++
+    - make ci-cms-data-setup
+
+build_cms:
+  stage: build
+  extends: .build_cms_template
+  needs: ["danger"]
+  variables:
+    ENV_LABEL: dev
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME =~ /^develop$|^main$|^release-uat$|^uat$/
+
+build_cms_dev:
+  stage: build
+  extends: .build_cms_template
+  only:
+    - develop
+    - release-uat
+  variables:
+    ENV_LABEL: dev
+
+build_cms_uat:
+  stage: build
+  extends: .build_cms_template
+  only:
+    - uat
+  variables:
+    ENV_LABEL: uat
+
+build_cms_prd:
+  stage: build
+  extends: .build_cms_template
+  only:
+    - main
+  variables:
+    ENV_LABEL: prd
+
+.build_nextjs_template:
+  tags: [docker, ekino, france]
+  image: node:18-alpine3.21
+  artifacts:
+    paths:
+      - nextjs
+      - infra
+  script:
+    - sed "s,#UID#,82,g" .env.dist > .env
+    - cp infra/images/nextjs/.env.$ENV_LABEL nextjs/.env.production
+    - cp infra/images/nextjs/$ENV_LABEL/robots.txt nextjs/public/robots.txt
+    - cd nextjs
+    - sed -i "s,API_CLIENT_ID=.*,API_CLIENT_ID=$NEXT_LABEL_CLIENT_ID," .env.production
+    - sed -i "s,API_CLIENT_SECRET=.*,API_CLIENT_SECRET=$NEXT_LABEL_CLIENT_SECRET," .env.production
+    - sed -i "s,TOKEN_SALT=.*,TOKEN_SALT=$NEXT_LABEL_TOKEN_SALT," .env.production
+    - sed -i "s,COOKIE_NAME=.*,COOKIE_NAME=$NEXT_LABEL_COOKIE_NAME," .env.production
+    - sed -i "s,SESSION_PWD=.*,SESSION_PWD=$NEXT_LABEL_SESSION_PWD," .env.production
+    - sed -i "s,SESSION_KEY=.*,SESSION_KEY=$NEXT_LABEL_SESSION_KEY," .env.production
+    - sed -i "s,API_TOKEN=.*,API_TOKEN=$NEXT_LABEL_API_TOKEN," .env.production
+    - sed -i "s,TOKEN_PUBLIC=.*,TOKEN_PUBLIC=$NEXT_LABEL_TOKEN_PUBLIC," .env.production
+    - sed -i "s,TOKEN_PRIVATE=.*,TOKEN_PRIVATE=$NEXT_LABEL_TOKEN_PRIVATE," .env.production
+    - apk add --no-cache make python3 g++
+    - cd ../
+    - make ci-next-data-setup
+
+build_nextjs:
+  stage: build
+  extends: .build_nextjs_template
+  needs: ["danger"]
+  variables:
+    ENV_LABEL: dev
+    NEXT_LABEL_CLIENT_ID: $API_CLIENT_ID
+    NEXT_LABEL_CLIENT_SECRET: $API_CLIENT_SECRET
+    NEXT_LABEL_COOKIE_NAME: $COOKIE_NAME
+    NEXT_LABEL_SESSION_KEY: $SESSION_KEY
+    NEXT_LABEL_SESSION_PWD: $SESSION_PWD
+    NEXT_LABEL_TOKEN_PRIVATE: $TOKEN_PRIVATE
+    NEXT_LABEL_TOKEN_PUBLIC: $TOKEN_PUBLIC
+    NEXT_LABEL_TOKEN_SALT: $TOKEN_SALT
+    NEXT_LABEL_API_TOKEN: $API_TOKEN_DEV
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME =~ /^develop$|^main$|^release-uat$|^uat$/
+
+build_nextjs_dev:
+  stage: build
+  extends: .build_nextjs_template
+  only:
+    - develop
+    - release-uat
+  variables:
+    ENV_LABEL: dev
+    NEXT_LABEL_CLIENT_ID: $API_CLIENT_ID
+    NEXT_LABEL_CLIENT_SECRET: $API_CLIENT_SECRET
+    NEXT_LABEL_COOKIE_NAME: $COOKIE_NAME
+    NEXT_LABEL_SESSION_KEY: $SESSION_KEY
+    NEXT_LABEL_SESSION_PWD: $SESSION_PWD
+    NEXT_LABEL_TOKEN_PRIVATE: $TOKEN_PRIVATE
+    NEXT_LABEL_TOKEN_PUBLIC: $TOKEN_PUBLIC
+    NEXT_LABEL_TOKEN_SALT: $TOKEN_SALT
+    NEXT_LABEL_API_TOKEN: $API_TOKEN_DEV
+
+build_nextjs_uat:
+  stage: build
+  extends: .build_nextjs_template
+  only:
+    - uat
+  variables:
+    ENV_LABEL: uat
+    NEXT_LABEL_CLIENT_ID: $API_CLIENT_ID
+    NEXT_LABEL_CLIENT_SECRET: $API_CLIENT_SECRET
+    NEXT_LABEL_COOKIE_NAME: $COOKIE_NAME
+    NEXT_LABEL_SESSION_KEY: $SESSION_KEY
+    NEXT_LABEL_SESSION_PWD: $SESSION_PWD
+    NEXT_LABEL_TOKEN_PRIVATE: $TOKEN_PRIVATE
+    NEXT_LABEL_TOKEN_PUBLIC: $TOKEN_PUBLIC
+    NEXT_LABEL_TOKEN_SALT: $TOKEN_SALT
+    NEXT_LABEL_API_TOKEN: $API_TOKEN_UAT
+
+build_nextjs_prd:
+  stage: build
+  extends: .build_nextjs_template
+  only:
+    - main
+  variables:
+    ENV_LABEL: prd
+    NEXT_LABEL_CLIENT_ID: $API_CLIENT_ID
+    NEXT_LABEL_CLIENT_SECRET: $API_CLIENT_SECRET
+    NEXT_LABEL_COOKIE_NAME: $COOKIE_NAME
+    NEXT_LABEL_SESSION_KEY: $SESSION_KEY
+    NEXT_LABEL_SESSION_PWD: $SESSION_PWD
+    NEXT_LABEL_TOKEN_PRIVATE: $TOKEN_PRIVATE
+    NEXT_LABEL_TOKEN_PUBLIC: $TOKEN_PUBLIC
+    NEXT_LABEL_TOKEN_SALT: $TOKEN_SALT
+    NEXT_LABEL_API_TOKEN: $API_TOKEN_PRD
+
+#********************Test**************#
+
+.test_cms_template:
+  tags: [docker, ekino, france]
+  script:
+    - cd cms
+    - yarn format
+    - yarn lint
+    - cd ../
+
+test_cms:
+  stage: test
+  extends: .test_cms_template
+  needs: ["build_cms"]
+  variables:
+    ENV_LABEL: dev
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME =~ /^develop$|^main$|^release-uat$|^uat$/
+
+test_cms_dev:
+  stage: test
+  extends: .test_cms_template
+  only:
+    - develop
+    - release-uat
+  needs: ["build_cms_dev"]
+  variables:
+    ENV_LABEL: dev
+
+test_cms_uat:
+  stage: test
+  extends: .test_cms_template
+  only:
+    - uat
+  needs: ["build_cms_uat"]
+  variables:
+    ENV_LABEL: uat
+
+test_cms_prd:
+  stage: test
+  extends: .test_cms_template
+  only:
+    - main
+  needs: ["build_cms_prd"]
+  variables:
+    ENV_LABEL: prd
+
+.test_nextjs_template:
+  tags: [docker, ekino, france]
+  image: ekino/ci-node:18-2023.12.31
+  script:
+    - cd nextjs
+    - yarn format
+    - yarn lint
+    - cd ../
+
+test_nextjs:
+  stage: test
+  extends: .test_nextjs_template
+  needs: ["build_nextjs"]
+  variables:
+    ENV_LABEL: dev
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME =~ /^develop$|^main$|^release-uat$|^uat$/
+
+test_nextjs_dev:
+  stage: test
+  extends: .test_nextjs_template
+  only:
+    - develop
+    - release-uat
+  needs: ["build_nextjs_dev"]
+  variables:
+    ENV_LABEL: dev
+
+test_nextjs_uat:
+  stage: test
+  extends: .test_nextjs_template
+  only:
+    - uat
+  needs: ["build_nextjs_uat"]
+  variables:
+    ENV_LABEL: uat
+
+test_nextjs_prd:
+  stage: test
+  extends: .test_nextjs_template
+  only:
+    - main
+  needs: ["build_nextjs_prd"]
+  variables:
+    ENV_LABEL: prd
+
+#********************Depoly**************#
+
+.ecr_deploy_cms: &ecr_deploy_cms
+  - cp infra/images/common/$ENV_LABEL/extra/nginx_headers_extra.conf infra/images/cms/nginx
+  - cp infra/images/cms/$ENV_LABEL/nginx.conf infra/images/cms/nginx
+  - mv infra/images/common/$ENV_LABEL/ssl infra/images/cms
+  - mv infra/images/common infra/images/cms
+  - mv cms infra/images/cms
+
+.ecr_deploy_nextjs: &ecr_deploy_nextjs
+  - cp infra/images/common/$ENV_LABEL/ssl/certificate.pem nextjs
+  - mv infra/images/common/$ENV_LABEL/ssl infra/images/nextjs
+  - mv infra/images/nextjs/$ENV_LABEL infra/images/nextjs/nginx
+  - mv infra/images/common infra/images/nextjs
+  - mv nextjs infra/images/nextjs
+
+.ecr_deploy:
+  stage: deploy
+  image: ekino/ci-dind:2022.04.30
+  tags: [aws, deploy, docker, ek-docker, ekino, france]
+  services:
+    - ekino/ci-dind:2022.04.30
+  allow_failure: false
+  variables:
+    DOCKER_TLS_CERTDIR: ""
+    DOCKER_DRIVER: overlay2
+    DOCKER_HOST: "tcp://ekino__ci-dind:2375"
+  script:
+    - mkdir -m 700 ~/.docker && echo "$DOCKER_AUTH_CONFIG" > ~/.docker/config.json && chmod 600 ~/.docker/config.json
+    - credentials=(`aws sts assume-role --role-arn $DEPLOYMENT_ROLE_ARN$ENV --role-session-name "deployment-$CI_PROJECT_NAME" --external-id ${EXTERNAL_ID} --query '[Credentials.AccessKeyId,Credentials.SecretAccessKey,Credentials.SessionToken]' --output text`)
+    - export AWS_ACCESS_KEY_ID=${credentials[0]}
+    - export AWS_SECRET_ACCESS_KEY=${credentials[1]}
+    - export AWS_SESSION_TOKEN=${credentials[2]}
+    - export AWS_SECURITY_TOKEN=${credentials[2]}
+    - aws sts get-caller-identity
+    - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username $DOCKER_USER --password-stdin $DOCKER_IMAGE_REPO
+    - docker build --no-cache -t $PROJECT_NAME-$SERVICE-$ENV_LABEL:$TAG -f infra/images/$SERVICE/Dockerfile infra/images/$SERVICE
+    - docker tag $PROJECT_NAME-$SERVICE-$ENV_LABEL:$TAG $DOCKER_IMAGE_REPO/$PROJECT_NAME-$SERVICE-$ENV_LABEL:$TAG
+    - docker push $DOCKER_IMAGE_REPO/$PROJECT_NAME-$SERVICE-$ENV_LABEL:$TAG
+
+deploy_cms_dev:
+  extends: .ecr_deploy
+  needs: ["build_cms_dev","test_cms_dev"]
+  variables:
+    SERVICE: cms
+    ENV_LABEL: dev
+    ENV: Dev
+    TAG: latest
+  before_script:
+    - *ecr_deploy_cms
+  only:
+    - develop
+    - release-uat
+  when: on_success
+
+deploy_cms_uat:
+  extends: .ecr_deploy
+  needs: ["build_cms_uat","test_cms_uat"]
+  variables:
+    SERVICE: cms
+    ENV_LABEL: uat
+    ENV: Uat
+    TAG: latest
+  before_script:
+    - *ecr_deploy_cms
+  only:
+    - uat
+  when: on_success
+
+deploy_cms_prd:
+  extends: .ecr_deploy
+  needs: ["build_cms_prd","test_cms_prd"]
+  variables:
+    SERVICE: cms
+    ENV_LABEL: prd
+    ENV: Prd
+    TAG: $DOCKER_IMAGE_TAG
+  before_script:
+    - *ecr_deploy_cms
+  only:
+    - main
+  when: on_success
+
+deploy_nextjs_dev:
+  extends: .ecr_deploy
+  needs: ["build_nextjs_dev","test_nextjs_dev"]
+  variables:
+    SERVICE: nextjs
+    ENV_LABEL: dev
+    ENV: Dev
+    TAG: latest
+  before_script:
+    - *ecr_deploy_nextjs
+  only:
+    - develop
+    - release-uat
+  when: on_success
+
+deploy_nextjs_uat:
+  extends: .ecr_deploy
+  needs: ["build_nextjs_uat","test_nextjs_uat"]
+  variables:
+    SERVICE: nextjs
+    ENV_LABEL: uat
+    ENV: Uat
+    TAG: latest
+  before_script:
+    - *ecr_deploy_nextjs
+  only:
+    - uat
+  when: on_success
+
+deploy_nextjs_prd:
+  extends: .ecr_deploy
+  needs: ["build_nextjs_prd","test_nextjs_prd"]
+  variables:
+    SERVICE: nextjs
+    ENV_LABEL: prd
+    ENV: Prd
+    TAG: $DOCKER_IMAGE_TAG
+  before_script:
+    - *ecr_deploy_nextjs
+  only:
+    - main
+  when: on_success
+
+.publish:
+  stage: publish
+  image: ekino/ci-dind:2022.04.30
+  tags: [aws, deploy, docker, ek-docker, ekino, france]
+  services:
+    - ekino/ci-dind:2022.04.30
+  allow_failure: false
+  variables:
+    DOCKER_TLS_CERTDIR: ""
+    DOCKER_DRIVER: overlay2
+    DOCKER_HOST: "tcp://ekino__ci-dind:2375"
+  script:
+    - mkdir -m 700 ~/.docker && echo "$DOCKER_AUTH_CONFIG" > ~/.docker/config.json && chmod 600 ~/.docker/config.json
+    - credentials=(`aws sts assume-role --role-arn $DEPLOYMENT_ROLE_ARN$ENV --role-session-name "deployment-$CI_PROJECT_NAME" --external-id ${EXTERNAL_ID} --query '[Credentials.AccessKeyId,Credentials.SecretAccessKey,Credentials.SessionToken]' --output text`)
+    - export AWS_ACCESS_KEY_ID=${credentials[0]}
+    - export AWS_SECRET_ACCESS_KEY=${credentials[1]}
+    - export AWS_SESSION_TOKEN=${credentials[2]}
+    - export AWS_SECURITY_TOKEN=${credentials[2]}
+    - aws sts get-caller-identity
+    - aws ecr get-login-password --region $AWS_DEFAULT_REGION | docker login --username $DOCKER_USER --password-stdin $DOCKER_IMAGE_REPO
+    - aws ecs update-service --force-new-deployment --service $PROJECT_NAME-$SERVICE_NAME-service-cms-$ENV_LABEL --cluster $PROJECT_NAME-$SERVICE_NAME-cluster-$ENV_LABEL --region $AWS_DEFAULT_REGION
+    - aws ecs update-service --force-new-deployment --service $PROJECT_NAME-$SERVICE_NAME-service-nextjs-$ENV_LABEL --cluster $PROJECT_NAME-$SERVICE_NAME-node-cluster-$ENV_LABEL --region $AWS_DEFAULT_REGION
+
+
+publish_dev:
+  extends: .publish
+  needs: ["deploy_cms_dev", "deploy_nextjs_dev"]
+  variables:
+    ENV_LABEL: dev
+    ENV: Dev
+  only:
+    - develop
+    - release-uat
+  when: manual
+
+publish_uat:
+  extends: .publish
+  needs: ["deploy_cms_uat", "deploy_nextjs_uat"]
+  variables:
+    ENV_LABEL: uat
+    ENV: Uat
+  only:
+    - uat
+  when: manual

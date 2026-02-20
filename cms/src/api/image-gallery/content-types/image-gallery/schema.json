@@ -1,0 +1,26 @@
+{
+    "kind": "collectionType",
+    "collectionName": "image_galleries",
+    "info": {
+        "singularName": "image-gallery",
+        "pluralName": "image-galleries",
+        "displayName": "Image Gallery",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "tag": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::image-gallery-tag.image-gallery-tag"
+        },
+        "imageGallery": {
+            "type": "component",
+            "repeatable": false,
+            "component": "corp-dynamic.media-image-type"
+        }
+    }
+}

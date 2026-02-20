@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_corp_subcomponent_c21_l1_tabs",
+  "info": {
+    "displayName": "C21-l1-tab",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "tabItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c2-text",
+      "max": 12
+    },
+    "disclaimer": {
+      "type": "text"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

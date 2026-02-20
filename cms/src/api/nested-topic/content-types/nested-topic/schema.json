@@ -1,0 +1,40 @@
+{
+    "kind": "collectionType",
+    "collectionName": "nested_topics",
+    "info": {
+        "singularName": "nested-topic",
+        "pluralName": "nested-topics",
+        "displayName": "Nested topics",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "attributes": {
+        "text": {
+            "type": "string",
+            "required": true
+        },
+        "parent": {
+            "type": "relation",
+            "relation": "manyToOne",
+            "target": "api::nested-topic.nested-topic",
+            "inversedBy": "children"
+        },
+        "children": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::nested-topic.nested-topic",
+            "mappedBy": "parent"
+        },
+        "action": {
+            "type": "dynamiczone",
+            "components": [
+                "corp-dynamic.nested-tab-document",
+                "corp-dynamic.nested-tab-link"
+            ],
+            "max": 1,
+            "required": false
+        }
+    }
+}

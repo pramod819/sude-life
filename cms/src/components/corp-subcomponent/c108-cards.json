@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_corp_subcomponent_c108_cards",
+  "info": {
+    "displayName": "c108-cards"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "cardTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.cta",
+      "max": 2,
+      "required": true
+    }
+  }
+}

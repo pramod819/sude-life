@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_corp_dynamic_c8s",
+  "info": {
+    "displayName": "[C8] - Connect With Us",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.cta",
+      "max": 2
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "minicard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c8-mini-card",
+      "max": 3
+    },
+    "officeTitle": {
+      "type": "string"
+    },
+    "officeSubTitle": {
+      "type": "string"
+    },
+    "officeAddress": {
+      "type": "richtext"
+    },
+    "officeWorkHour": {
+      "type": "string"
+    }
+  }
+}

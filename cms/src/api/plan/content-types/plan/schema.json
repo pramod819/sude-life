@@ -1,0 +1,77 @@
+{
+    "kind": "collectionType",
+    "collectionName": "plans",
+    "info": {
+        "singularName": "plan",
+        "pluralName": "plans",
+        "displayName": "Product",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "min": {
+            "type": "decimal"
+        },
+        "max": {
+            "type": "decimal"
+        },
+        "features": {
+            "type": "component",
+            "repeatable": true,
+            "component": "corp-subcomponent.plan-features"
+        },
+        "thumbnail": {
+            "type": "component",
+            "repeatable": false,
+            "component": "common.media-img",
+            "required": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "category": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::plan-sub-category.plan-sub-category"
+        },
+        "withdrawn": {
+            "type": "boolean",
+            "default": false
+        },
+        "code": {
+            "type": "string"
+        },
+        "codeDescription": {
+            "type": "text"
+        },
+        "productId": {
+            "type": "string",
+            "required": true
+        },
+        "withdrawnProductLink": {
+            "type": "string"
+        },
+        "withdrawnProductDate": {
+            "type": "date",
+            "required": false
+        },
+        "soldOffline": {
+            "type": "boolean",
+            "default": false,
+            "required": true
+        },
+        "premiumLink": {
+            "type": "string"
+        },
+        "dropdownText": {
+            "type": "string"
+        }
+    }
+}

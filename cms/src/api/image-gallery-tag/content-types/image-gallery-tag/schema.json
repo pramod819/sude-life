@@ -1,0 +1,20 @@
+{
+    "kind": "collectionType",
+    "collectionName": "image_gallery_tags",
+    "info": {
+        "singularName": "image-gallery-tag",
+        "pluralName": "image-gallery-tags",
+        "displayName": "Image Gallery Tags",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_corp_dynamic_c81s",
+  "info": {
+    "displayName": "[C81] - Must read articles"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text"
+    },
+    "bgImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "articles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c81-l1-articles",
+      "max": 6
+    }
+  }
+}

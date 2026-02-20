@@ -1,0 +1,159 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-dynamic.c97",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "tabList": {
+        "edit": {
+          "label": "Tab List",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Tab List",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "leftText": {
+        "edit": {
+          "label": "Left Text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Left Text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "rightText": {
+        "edit": {
+          "label": "Right Text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Right Text",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "getDirection": {
+        "edit": {
+          "label": "Get Direction CTA",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Get Direction CTA",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "scheduleCall": {
+        "edit": {
+          "label": "Schedule Call CTA",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Schedule Call CTA",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "labelPack": {
+        "edit": {
+          "label": "Label Pack",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Label Pack",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "tabList",
+        "getDirection",
+        "scheduleCall"
+      ],
+      "edit": [
+        [
+          {
+            "name": "tabList",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "leftText",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "rightText",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "getDirection",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "scheduleCall",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "labelPack",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "uid": "corp-dynamic.c97",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

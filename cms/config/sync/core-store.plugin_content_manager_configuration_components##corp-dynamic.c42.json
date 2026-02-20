@@ -1,0 +1,119 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-dynamic.c42",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "navigationId",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "bgImage": {
+        "edit": {
+          "label": "bgImage",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "bgImage",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "cards": {
+        "edit": {
+          "label": "cards",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "cards",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "navigationId": {
+        "edit": {
+          "label": "Navigation Id",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "navigationId",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "title",
+        "bgImage",
+        "cards"
+      ],
+      "edit": [
+        [
+          {
+            "name": "navigationId",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "bgImage",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "cards",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "uid": "corp-dynamic.c42",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

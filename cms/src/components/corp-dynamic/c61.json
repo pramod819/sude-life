@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_corp_dynamic_c61s",
+  "info": {
+    "displayName": "[Form] Have an Idea",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "bgImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "formTitle": {
+      "type": "string"
+    },
+    "labelPack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c61-l1-label-pack"
+    },
+    "navigationId": {
+      "type": "string"
+    }
+  }
+}

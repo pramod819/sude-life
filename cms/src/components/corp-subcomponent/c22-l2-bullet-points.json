@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_corp_subcomponent_c22_l2_bullet_points",
+  "info": {
+    "displayName": "C22-l2-bullet-points"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

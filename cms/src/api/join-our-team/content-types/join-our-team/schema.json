@@ -1,0 +1,41 @@
+{
+    "kind": "collectionType",
+    "collectionName": "join_our_teams",
+    "info": {
+        "singularName": "join-our-team",
+        "pluralName": "join-our-teams",
+        "displayName": "[Form] Join our team",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "fullName": {
+            "type": "string",
+            "required": true
+        },
+        "mobile": {
+            "type": "string",
+            "required": true
+        },
+        "email": {
+            "type": "string",
+            "required": true
+        },
+        "department": {
+            "type": "string",
+            "required": true
+        },
+        "message": {
+            "type": "text"
+        },
+        "resume": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": ["files"]
+        }
+    }
+}

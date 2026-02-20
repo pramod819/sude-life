@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_corp_subcomponent_c66_label_packs",
+  "info": {
+    "displayName": "c66-labelPack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Select Year",
+        "Select Quarter",
+        "Document Name",
+        "View Link",
+        "Download Link",
+        "View",
+        "Download"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

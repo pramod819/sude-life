@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_corp_dynamic_c19s",
+  "info": {
+    "displayName": "[C19] Vertical Tabs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "tabs": {
+      "displayName": "c19-tab",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c19-tab"
+    },
+    "bottomText": {
+      "type": "richtext"
+    }
+  }
+}

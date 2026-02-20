@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_corp_subcomponent_c8_mini_cards",
+  "info": {
+    "displayName": "c8-mini-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "iconImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

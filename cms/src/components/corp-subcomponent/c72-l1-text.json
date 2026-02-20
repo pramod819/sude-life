@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_corp_subcomponent_c72_l1_texts",
+  "info": {
+    "displayName": "C72-l1-text"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

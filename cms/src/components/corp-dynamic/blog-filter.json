@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_corp_dynamic_blog_filters",
+  "info": {
+    "displayName": "Blog Filter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "blog_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::blog-category.blog-category"
+    },
+    "filter": {
+      "type": "boolean"
+    },
+    "labelPack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.blog-filter-label-pack"
+    },
+    "displayFormat": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "slider_with_trending",
+        "slider_with_category"
+      ]
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    }
+  }
+}

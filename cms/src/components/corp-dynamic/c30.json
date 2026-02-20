@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_corp_dynamic_c30s",
+  "info": {
+    "displayName": "[C30] - Key reasons to buy plan",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "keyReasons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c30-l1-card",
+      "max": 5
+    }
+  }
+}

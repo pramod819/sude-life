@@ -1,0 +1,98 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-subcomponent.faq",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "question",
+      "defaultSortBy": "question",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "question": {
+        "edit": {
+          "label": "question",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "question",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "answer": {
+        "edit": {
+          "label": "answer",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "answer",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "category": {
+        "edit": {
+          "label": "category",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "category",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "question",
+        "category"
+      ],
+      "edit": [
+        [
+          {
+            "name": "question",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "answer",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "category",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "corp-subcomponent.faq",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

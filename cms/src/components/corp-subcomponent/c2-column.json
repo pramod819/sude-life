@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_corp_subcomponent_c2_columns",
+  "info": {
+    "displayName": "C2-Column"
+  },
+  "options": {},
+  "attributes": {
+    "menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c2-menu"
+    }
+  }
+}

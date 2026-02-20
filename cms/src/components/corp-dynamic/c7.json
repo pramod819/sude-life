@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_corp_dynamic_c7s",
+  "info": {
+    "displayName": "[C7] Icon And Text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.cta",
+      "max": 2
+    },
+    "icon": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.icon",
+      "max": 3
+    },
+    "backgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    }
+  }
+}

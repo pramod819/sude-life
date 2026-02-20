@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_corp_subcomponent_designations",
+  "info": {
+    "displayName": "Designation"
+  },
+  "options": {},
+  "attributes": {
+    "role": {
+      "type": "enumeration",
+      "enum": [
+        "management",
+        "directors",
+        "committee"
+      ]
+    },
+    "designation": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::people-designation.people-designation"
+    }
+  }
+}

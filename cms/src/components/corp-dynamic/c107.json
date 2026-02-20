@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_corp_dynamic_c107s",
+  "info": {
+    "displayName": "[C107] - Video Slider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "backgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "shortDescription": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "videoItems": {
+      "displayName": "c107-video-item",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c107-video-item",
+      "max": 10,
+      "required": true
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    }
+  }
+}

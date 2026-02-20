@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_corp_subcomponent_media_image_galleries",
+  "info": {
+    "displayName": "Media-image-gallery"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "caption": {
+      "type": "string"
+    }
+  }
+}

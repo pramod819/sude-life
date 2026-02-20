@@ -1,0 +1,4 @@
+Created C121 Card Listing Component
+Missing CTA field added for cards sub component
+fixed character length limit with description field
+Missing CTA field config json file.

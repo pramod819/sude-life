@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_corp_dynamic_c117s",
+  "info": {
+    "displayName": "[C117] - Images with quotes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imagesWithQuotes": {
+      "displayName": "c117-images-with-quotes",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c117-images-with-quotes"
+    }
+  }
+}

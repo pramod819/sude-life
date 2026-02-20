@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_corp_subcomponent_joinus_bullet_points",
+  "info": {
+    "displayName": "joinus-bulletPoints"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_corp_dynamic_business_partners",
+  "info": {
+    "displayName": "[Form] Business Partner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "bgImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "disclaimer": {
+      "type": "text"
+    },
+    "formTitle": {
+      "type": "string"
+    },
+    "labelPack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.business-partner-label-pack"
+    }
+  }
+}

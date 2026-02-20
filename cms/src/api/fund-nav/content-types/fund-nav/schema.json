@@ -1,0 +1,29 @@
+{
+    "kind": "collectionType",
+    "collectionName": "fund_navs",
+    "info": {
+        "singularName": "fund-nav",
+        "pluralName": "fund-navs",
+        "displayName": "Fund Nav"
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "nav": {
+            "type": "decimal"
+        },
+        "date": {
+            "type": "date"
+        },
+        "fund": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::fund.fund"
+        }
+    }
+}

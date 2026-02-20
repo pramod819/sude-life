@@ -1,0 +1,53 @@
+{
+    "kind": "collectionType",
+    "collectionName": "funds",
+    "info": {
+        "singularName": "fund",
+        "pluralName": "funds",
+        "displayName": "Fund",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "color": {
+            "type": "string"
+        },
+        "fund_db": {
+            "type": "string"
+        },
+        "fund_sud": {
+            "type": "string"
+        },
+        "SFIN": {
+            "type": "string"
+        },
+        "code": {
+            "type": "string"
+        },
+        "display_name": {
+            "type": "string"
+        },
+        "nav_products": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::nav-product.nav-product"
+        },
+        "pdf": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": ["files"]
+        },
+        "type": {
+            "type": "enumeration",
+            "enum": ["General", "NRI"]
+        }
+    }
+}

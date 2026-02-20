@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_corp_subcomponent_c96_tabs",
+  "info": {
+    "displayName": "c96-tabs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tabText": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "iconList": {
+      "displayName": "c96-icon-list",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c96-icon-list"
+    },
+    "tableContent": {
+      "displayName": "c96-table-content",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c96-table-content",
+      "max": 1
+    }
+  }
+}

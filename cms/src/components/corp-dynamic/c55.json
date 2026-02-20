@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_corp_dynamic_c55s",
+  "info": {
+    "displayName": "[C55] - Two column icon & text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "shortDescription": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c55-l1-item"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_corp_subcomponent_84_label_packs",
+  "info": {
+    "displayName": "84-labelPack"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Document Name",
+        "View Link",
+        "Download Link",
+        "View",
+        "Download"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

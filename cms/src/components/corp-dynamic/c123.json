@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_corp_dynamic_c123s",
+  "info": {
+    "displayName": "[C123] - Nested Tabs",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "tabs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::nested-topic.nested-topic"
+    }
+  }
+}

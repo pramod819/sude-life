@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_corp_dynamic_c26s",
+  "info": {
+    "displayName": "[C26] - Text and Icons (When to buy Plan)",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "backgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "disclaimerText": {
+      "type": "richtext"
+    },
+    "iconList": {
+      "displayName": "c26 Icon List",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c26-icon-list"
+    }
+  }
+}

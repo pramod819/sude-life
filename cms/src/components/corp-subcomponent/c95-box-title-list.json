@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_corp_subcomponent_c95_box_title_lists",
+  "info": {
+    "displayName": "c95-box-title-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Ordered",
+        "Unordered"
+      ]
+    },
+    "points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c20-bullet-points"
+    }
+  }
+}

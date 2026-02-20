@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_corp_subcomponent_c61_l1_label_packs",
+  "info": {
+    "displayName": "C61-l1-labelPack"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "department",
+        "employee_id",
+        "subject",
+        "idea",
+        "button",
+        "success"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

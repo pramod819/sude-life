@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_corp_dynamic_c47s",
+  "info": {
+    "displayName": "[C47] - Simple Introduction",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "introductionDetails": {
+      "displayName": "c47-introductionDetails",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c47-description"
+    }
+  }
+}

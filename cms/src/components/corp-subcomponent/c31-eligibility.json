@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_corp_subcomponent_c31_eligibilities",
+  "info": {
+    "displayName": "c31-Eligibility",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "eligibilityList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c31-eligibility-list",
+      "max": 4
+    }
+  }
+}

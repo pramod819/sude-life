@@ -1,0 +1,26 @@
+{
+    "kind": "collectionType",
+    "collectionName": "have_an_ideas",
+    "info": {
+        "singularName": "have-an-idea",
+        "pluralName": "have-an-ideas",
+        "displayName": "[Form] Have an idea"
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "attributes": {
+        "employee_id": {
+            "type": "string"
+        },
+        "department": {
+            "type": "string"
+        },
+        "subject": {
+            "type": "string"
+        },
+        "idea": {
+            "type": "text"
+        }
+    }
+}

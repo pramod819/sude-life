@@ -1,0 +1,197 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-dynamic.c9",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "scannerText",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "description": {
+        "edit": {
+          "label": "Description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Description",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "backgroundImage": {
+        "edit": {
+          "label": "Background Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Background Image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "media": {
+        "edit": {
+          "label": "Media",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Media",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "logos": {
+        "edit": {
+          "label": "Logos",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Logos",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "mediaType": {
+        "edit": {
+          "label": "Media Type",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Media Type",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "scanner": {
+        "edit": {
+          "label": "Scanner",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Scanner",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "scannerText": {
+        "edit": {
+          "label": "Scanner Text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Scanner Text",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "backgroundImage",
+        "media",
+        "mediaType"
+      ],
+      "edit": [
+        [
+          {
+            "name": "description",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "backgroundImage",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "mediaType",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "media",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "logos",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "scanner",
+            "size": 6
+          },
+          {
+            "name": "scannerText",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "corp-dynamic.c9",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

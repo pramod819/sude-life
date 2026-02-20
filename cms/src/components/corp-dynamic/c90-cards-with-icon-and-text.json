@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_corp_dynamic_c90_cards_with_icon_and_texts",
+  "info": {
+    "displayName": "[C90] - Cards with icon & text"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c90-icon-text"
+    }
+  }
+}

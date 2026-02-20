@@ -1,0 +1,19 @@
+{
+    "kind": "collectionType",
+    "collectionName": "media_tags",
+    "info": {
+        "singularName": "media-tag",
+        "pluralName": "media-tags",
+        "displayName": "Media Tags"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        }
+    }
+}

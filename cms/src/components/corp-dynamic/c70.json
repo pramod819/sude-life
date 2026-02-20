@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_corp_dynamic_c70s",
+  "info": {
+    "displayName": "[C70] - Overview Component",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c70-l1-text",
+      "max": 3,
+      "min": 1
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c70-l1-card",
+      "max": 4,
+      "min": 1
+    }
+  }
+}

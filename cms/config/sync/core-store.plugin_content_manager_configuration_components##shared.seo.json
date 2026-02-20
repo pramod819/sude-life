@@ -1,0 +1,213 @@
+{
+  "key": "plugin_content_manager_configuration_components::shared.seo",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "metaTitle",
+      "defaultSortBy": "metaTitle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "metaTitle": {
+        "edit": {
+          "label": "Meta Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Meta Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "metaDescription": {
+        "edit": {
+          "label": "Meta Description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Meta Description",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "keywords": {
+        "edit": {
+          "label": "Keywords",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Keywords",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "metaRobots": {
+        "edit": {
+          "label": "Meta Robots",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Meta Robots",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "structuredData": {
+        "edit": {
+          "label": "Structured Data",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Structured Data",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "metaViewport": {
+        "edit": {
+          "label": "Meta Viewport",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Meta Viewport",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "canonicalURL": {
+        "edit": {
+          "label": "Canonical URL",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Canonical URL",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "shortlink": {
+        "edit": {
+          "label": "Short Link",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Short Link",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "opengraph": {
+        "edit": {
+          "label": "OpenGraph",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "OpenGraph",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "metaTitle",
+        "metaDescription",
+        "opengraph"
+      ],
+      "edit": [
+        [
+          {
+            "name": "metaTitle",
+            "size": 6
+          },
+          {
+            "name": "metaDescription",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "keywords",
+            "size": 6
+          },
+          {
+            "name": "metaRobots",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "structuredData",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "metaViewport",
+            "size": 6
+          },
+          {
+            "name": "canonicalURL",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "shortlink",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "opengraph",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "uid": "shared.seo",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

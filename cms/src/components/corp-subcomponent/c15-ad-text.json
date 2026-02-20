@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_corp_subcomponent_c15_ad_texts",
+  "info": {
+    "displayName": "C15-ad-text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

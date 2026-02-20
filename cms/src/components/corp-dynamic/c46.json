@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_corp_dynamic_c46s",
+  "info": {
+    "displayName": "[C46]- Image & text with pointers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Usage",
+        "Mistakes",
+        "Tips",
+        "Questions"
+      ],
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "points": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c46-l1-points",
+      "max": 8
+    },
+    "description": {
+      "type": "text"
+    },
+    "descriptionWithPoints": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

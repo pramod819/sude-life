@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_corp_dynamic_newsletters",
+  "info": {
+    "displayName": "[Form] Newsletter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "bgImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "inputPlaceholder": {
+      "type": "string"
+    },
+    "btnText": {
+      "type": "string"
+    },
+    "successMessage": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "bgColour": {
+      "type": "string"
+    }
+  }
+}

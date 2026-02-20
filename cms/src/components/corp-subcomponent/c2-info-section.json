@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_corp_subcomponent_c2_info_sections",
+  "info": {
+    "displayName": "C2-InfoSection"
+  },
+  "options": {},
+  "attributes": {
+    "sectionColumn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c2-text",
+      "max": 5
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

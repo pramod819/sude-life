@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_corp_subcomponent_c94_l1_cards",
+  "info": {
+    "displayName": "C94-l1-Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "transparentImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "quote": {
+      "type": "text"
+    },
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    }
+  }
+}

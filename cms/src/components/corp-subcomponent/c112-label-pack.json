@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_corp_subcomponent_c112_label_packs",
+  "info": {
+    "displayName": "c112-label-pack"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Select Year",
+        "Select Month",
+        "View Link",
+        "Download Link",
+        "View",
+        "Download"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_corp_dynamic_nested_tab_links",
+  "info": {
+    "displayName": "Link"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    }
+  }
+}

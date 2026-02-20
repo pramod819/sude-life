@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_corp_dynamic_c112s",
+  "info": {
+    "displayName": "[C112] - Investors Factsheet",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "subTitle": {
+      "type": "richtext"
+    },
+    "labelPack": {
+      "displayName": "c112-label-pack",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c112-label-pack"
+    }
+  }
+}

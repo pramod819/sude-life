@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_corp_dynamic_c115s",
+  "info": {
+    "displayName": "[C115] - Social posts",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "subTitle": {
+      "type": "richtext"
+    },
+    "backgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "iconList": {
+      "displayName": "c115-icon-list",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c115-icon-list",
+      "max": 5,
+      "required": true
+    },
+    "navigationId": {
+      "type": "string"
+    }
+  }
+}

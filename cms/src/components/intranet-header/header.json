@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_intranet_header_headers",
+  "info": {
+    "displayName": "[Header] Intranet Site"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "additional_logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "options": {
+      "type": "customField",
+      "options": [
+        "Show Language Selector:language",
+        "Show Search Bar:search",
+        "Show Profile Button:profile"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "profile": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "main_menu": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "corp-subcomponent.c1-l1"
+    },
+    "top_menu": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "corp-subcomponent.c1-top"
+    },
+    "additional_logo_link": {
+      "type": "string"
+    }
+  }
+}

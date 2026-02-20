@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_corp_subcomponent_c32_l1_tabs",
+  "info": {
+    "displayName": "C32-l1-tab",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tabTitle": {
+      "type": "string"
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "youtubeVideoId": {
+      "type": "string"
+    }
+  }
+}

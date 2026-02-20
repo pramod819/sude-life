@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_corp_dynamic_branch_amenities",
+  "info": {
+    "displayName": "[Branch] amenity",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "included",
+        "excluded"
+      ],
+      "default": "included",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

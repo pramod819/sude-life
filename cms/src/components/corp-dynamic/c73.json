@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_corp_dynamic_c73s",
+  "info": {
+    "displayName": "[C73] - Product Card display banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "bgImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::plan.plan"
+    }
+  }
+}

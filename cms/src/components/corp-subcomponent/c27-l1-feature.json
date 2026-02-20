@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_corp_subcomponent_c27_l1_features",
+  "info": {
+    "displayName": "C27-l1-feature",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "firstColumn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c27-l2-item",
+      "max": 8
+    },
+    "secondColumn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c27-l2-item",
+      "max": 8
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_corp_dynamic_c17s",
+  "info": {
+    "displayName": "[Form] - Become an Agent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "feature": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c17-feature",
+      "max": 8
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "agents": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::agent.agent"
+    },
+    "labelPack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.labelpack-become-an-agent"
+    },
+    "hideAgent": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

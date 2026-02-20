@@ -1,0 +1,35 @@
+@import './colors.scss';
+@import './media-queries';
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extrabold: 800;
+
+.title-wrapper {
+    position: relative;
+    @include up-to-large-tablet {
+        text-align: left;
+    }
+    .main-title {
+        font-weight: $font-weight-light;
+        display: inline-block;
+        position: relative;
+        z-index: 9;
+        padding: 0 24px;
+        @include up-to-large-tablet {
+            font-size: 32px;
+            padding: 0 1.2rem 0 0;
+        }
+    }
+    &:before {
+        content: '';
+        height: 2px;
+        left: 0;
+        right: 0;
+        position: absolute;
+        top: calc(50% - 1px);
+        background: $red;
+    }
+}

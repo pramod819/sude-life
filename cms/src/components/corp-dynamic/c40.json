@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_corp_dynamic_c40s",
+  "info": {
+    "displayName": "[C40] - People listing",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "variation": {
+      "type": "enumeration",
+      "enum": [
+        "management",
+        "directors",
+        "committee",
+        "fund",
+        "awards"
+      ],
+      "default": "management",
+      "required": true
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "people": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::people.people"
+    }
+  }
+}

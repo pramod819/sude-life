@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_corp_dynamic_c42s",
+  "info": {
+    "displayName": "[C42] - Card Slider",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "bgImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c42-l1-card",
+      "max": 9
+    },
+    "navigationId": {
+      "type": "string"
+    }
+  }
+}

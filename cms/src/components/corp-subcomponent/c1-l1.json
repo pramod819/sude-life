@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_corp_subcomponent_c1_l1s",
+  "info": {
+    "displayName": "c1-l1"
+  },
+  "options": {},
+  "attributes": {
+    "menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c1-l1-link"
+    }
+  }
+}

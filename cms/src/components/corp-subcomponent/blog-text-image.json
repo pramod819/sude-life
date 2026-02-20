@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_corp_subcomponent_blog_text_images",
+  "info": {
+    "displayName": "Blog Text Image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "variation": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "top",
+        "bottom"
+      ]
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

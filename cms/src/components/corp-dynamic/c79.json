@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_corp_dynamic_c79s",
+  "info": {
+    "displayName": "[C79] - Text with vertical cards (About SUD insurance)",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "backgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "cards": {
+      "displayName": "c79-cards",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c79-cards"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

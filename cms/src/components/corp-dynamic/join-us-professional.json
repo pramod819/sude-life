@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_corp_dynamic_join_us_professionals",
+  "info": {
+    "displayName": "[Form] Join Us Professional",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "formList": {
+      "displayName": "join-us-professional",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.join-us-professional"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "labelPack": {
+      "displayName": "join-us-prof-labelPack",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.join-us-prof-label-pack"
+    },
+    "navigationId": {
+      "type": "string"
+    }
+  }
+}

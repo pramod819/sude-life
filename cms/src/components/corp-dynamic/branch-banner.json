@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_corp_dynamic_branch_banners",
+  "info": {
+    "displayName": "[Branch] banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text"
+    }
+  }
+}

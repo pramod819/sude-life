@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_corp_dynamic_c97s",
+  "info": {
+    "displayName": "[C97] - Claims perquisite",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tabList": {
+      "displayName": "c97-tabs",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c97-tabs"
+    },
+    "leftText": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "rightText": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "getDirection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "scheduleCall": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "labelPack": {
+      "displayName": "labelPack",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.label-pack"
+    }
+  }
+}

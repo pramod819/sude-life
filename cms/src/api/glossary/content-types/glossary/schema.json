@@ -1,0 +1,27 @@
+{
+    "kind": "collectionType",
+    "collectionName": "glossaries",
+    "info": {
+        "singularName": "glossary",
+        "pluralName": "glossaries",
+        "displayName": "Glossary"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "keyword": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "categories": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::plan-sub-category.plan-sub-category"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_corp_subcomponent_product_form_label_packs",
+  "info": {
+    "displayName": "productForm-labelPack",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "first_name",
+        "last_name",
+        "gender",
+        "dob",
+        "email",
+        "mobile",
+        "spam",
+        "button_text",
+        "success"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

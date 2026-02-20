@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_corp_subcomponent_c18_l2_descriptions",
+  "info": {
+    "displayName": "C18-l2-description"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

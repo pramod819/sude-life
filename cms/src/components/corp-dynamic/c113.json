@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_corp_dynamic_c113s",
+  "info": {
+    "displayName": "[C113] - Careers search module",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "labelPack": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c113-l1-label-pack"
+    },
+    "navigationId": {
+      "type": "string"
+    }
+  }
+}

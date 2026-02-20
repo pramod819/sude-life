@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_corp_dynamic_c12s",
+  "info": {
+    "displayName": "[C12] - FAQ module",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "faq": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.faq"
+    },
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "backgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_corp_subcomponent_c57_card_with_icons",
+  "info": {
+    "displayName": "c57-cardWithIcon"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "max": 2,
+      "component": "common.cta"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_corp_dynamic_c34s",
+  "info": {
+    "displayName": "[C34] - Steps for How it works"
+  },
+  "options": {},
+  "attributes": {
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "stepToWork": {
+      "displayName": "c34-step-to-work",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c34-step-to-work",
+      "max": 6 
+    }
+  }
+}

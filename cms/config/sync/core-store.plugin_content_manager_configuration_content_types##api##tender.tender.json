@@ -1,0 +1,232 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::tender.tender",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "rfpNumber",
+      "defaultSortBy": "rfpNumber",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "rfpNumber": {
+        "edit": {
+          "label": "Tender RFP number",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "rfpNumber",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "tenderStatus": {
+        "edit": {
+          "label": "Status",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "tenderStatus",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "description": {
+        "edit": {
+          "label": "Tender/RFP Description",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "description",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "issueDate": {
+        "edit": {
+          "label": "Date of issue",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "issueDate",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "submissionDate": {
+        "edit": {
+          "label": "Final date of submission",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "submissionDate",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "document": {
+        "edit": {
+          "label": "Document",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "document",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "order": {
+        "edit": {
+          "label": "Order",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "order",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdBy": {
+        "edit": {
+          "label": "createdBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "createdBy",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedBy": {
+        "edit": {
+          "label": "updatedBy",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true,
+          "mainField": "firstname"
+        },
+        "list": {
+          "label": "updatedBy",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "rfpNumber",
+            "size": 6
+          },
+          {
+            "name": "tenderStatus",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "description",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "issueDate",
+            "size": 6
+          },
+          {
+            "name": "submissionDate",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "document",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "order",
+            "size": 4
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "rfpNumber",
+        "tenderStatus",
+        "description"
+      ]
+    },
+    "uid": "api::tender.tender"
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

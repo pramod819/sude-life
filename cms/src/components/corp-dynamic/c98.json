@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_corp_dynamic_c98s",
+  "info": {
+    "displayName": "[C98] - Downloads",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "documents": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c98-l1-card"
+    },
+    "btnOneLabel": {
+      "type": "string"
+    },
+    "btnTwoLabel": {
+      "type": "string"
+    }
+  }
+}

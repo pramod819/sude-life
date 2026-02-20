@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_corp_subcomponent_c117_images_with_quotes",
+  "info": {
+    "displayName": "c117-images-with-quotes"
+  },
+  "options": {},
+  "attributes": {
+    "overlapImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "mainImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "quote": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_corp_dynamic_c25s",
+  "info": {
+    "displayName": "[C25] - Icon + Text Slider"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c25-l1-card",
+      "max": 16
+    },
+    "disclaimer": {
+      "type": "text"
+    }
+  }
+}

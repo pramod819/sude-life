@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_corp_subcomponent_c64_l1_items",
+  "info": {
+    "displayName": "C64-l1-item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "youtubeLink": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Campaign",
+        "In News",
+        "Video"
+      ]
+    }
+  }
+}

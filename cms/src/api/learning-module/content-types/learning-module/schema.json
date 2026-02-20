@@ -1,0 +1,177 @@
+{
+    "kind": "collectionType",
+    "collectionName": "learning_modules",
+    "info": {
+        "singularName": "learning-module",
+        "pluralName": "learning-modules",
+        "displayName": "[LM] Topics",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "type": {
+            "type": "enumeration",
+            "enum": ["modules", "video", "finz"],
+            "default": "modules",
+            "required": true
+        },
+        "module": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::learning-module-tag.learning-module-tag"
+        },
+        "detailComponent": {
+            "type": "dynamiczone",
+            "components": ["corp-dynamic.lm-cards", "corp-dynamic.lm-video"],
+            "max": 1
+        },
+        "thumbnail": {
+            "type": "component",
+            "repeatable": false,
+            "component": "common.media-img"
+        },
+        "cmp_dynamic": {
+            "type": "dynamiczone",
+            "components": [
+                "corp-dynamic.lm-component",
+                "corp-dynamic.c3",
+                "corp-dynamic.c4",
+                "corp-dynamic.c5",
+                "corp-dynamic.c6",
+                "corp-dynamic.c7",
+                "corp-dynamic.c8",
+                "corp-dynamic.c9",
+                "corp-dynamic.c11",
+                "corp-dynamic.c12",
+                "corp-dynamic.c12-faq",
+                "corp-dynamic.c12-tab",
+                "corp-dynamic.c13",
+                "corp-dynamic.c14",
+                "corp-dynamic.c15",
+                "corp-dynamic.c19",
+                "corp-dynamic.c18",
+                "corp-dynamic.c20",
+                "corp-dynamic.c21",
+                "corp-dynamic.c22",
+                "corp-dynamic.c23",
+                "corp-dynamic.c24",
+                "corp-dynamic.c25",
+                "corp-dynamic.c26",
+                "corp-dynamic.c27",
+                "corp-dynamic.c28",
+                "corp-dynamic.c29",
+                "corp-dynamic.c30",
+                "corp-dynamic.c31",
+                "corp-dynamic.c32",
+                "corp-dynamic.c33",
+                "corp-dynamic.c34",
+                "corp-dynamic.c35",
+                "corp-dynamic.c36",
+                "corp-dynamic.c37",
+                "corp-dynamic.c38",
+                "corp-dynamic.c39",
+                "corp-dynamic.c40",
+                "corp-dynamic.c41",
+                "corp-dynamic.c42",
+                "corp-dynamic.c43",
+                "corp-dynamic.c44",
+                "corp-dynamic.c45",
+                "corp-dynamic.c46",
+                "corp-dynamic.c47",
+                "corp-dynamic.c48",
+                "corp-dynamic.c49",
+                "corp-dynamic.c50",
+                "corp-dynamic.c51",
+                "corp-dynamic.c53",
+                "corp-dynamic.c54",
+                "corp-dynamic.c55",
+                "corp-dynamic.c56",
+                "corp-dynamic.c57",
+                "corp-dynamic.c58",
+                "corp-dynamic.c59",
+                "corp-dynamic.c60",
+                "corp-dynamic.c62",
+                "corp-dynamic.c64",
+                "corp-dynamic.c65",
+                "corp-dynamic.c66",
+                "corp-dynamic.c67",
+                "corp-dynamic.c69",
+                "corp-dynamic.c70",
+                "corp-dynamic.c71",
+                "corp-dynamic.c72",
+                "corp-dynamic.c73",
+                "corp-dynamic.c74",
+                "corp-dynamic.c75",
+                "corp-dynamic.c76-disclaimers",
+                "corp-dynamic.c77",
+                "corp-dynamic.c78",
+                "corp-dynamic.c79",
+                "corp-dynamic.c81",
+                "corp-dynamic.c83",
+                "corp-dynamic.c84",
+                "corp-dynamic.c85",
+                "corp-dynamic.c86",
+                "corp-dynamic.c87",
+                "corp-dynamic.c88",
+                "corp-dynamic.c89",
+                "corp-dynamic.c90-cards-with-icon-and-text",
+                "corp-dynamic.c91-columns-with-icons-and-cta",
+                "corp-dynamic.c92",
+                "corp-dynamic.c93-only-icon-and-text",
+                "corp-dynamic.c94",
+                "corp-dynamic.c95-public-disclosures",
+                "corp-dynamic.c96",
+                "corp-dynamic.c97",
+                "corp-dynamic.c98",
+                "corp-dynamic.c99",
+                "corp-dynamic.c100",
+                "corp-dynamic.c101",
+                "corp-dynamic.contact-us",
+                "corp-dynamic.dnd",
+                "corp-dynamic.c17",
+                "corp-dynamic.join-us",
+                "corp-dynamic.business-partner",
+                "corp-dynamic.product-form",
+                "corp-dynamic.newsletter",
+                "corp-dynamic.join-our-team",
+                "corp-dynamic.form-panupdate",
+                "corp-dynamic.form-fatcaupdate",
+                "corp-dynamic.form-payment",
+                "corp-dynamic.lm-more-topics"
+            ]
+        },
+        "parent": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::corp-page.corp-page"
+        },
+        "path": {
+            "type": "string",
+            "regex": "(\\/|\\/[A-Za-z][A-Za-z0-9\\/\\-_]*)",
+            "required": true,
+            "unique": true
+        },
+        "shortDescription": {
+            "type": "text"
+        },
+        "bannerImage": {
+            "type": "component",
+            "repeatable": false,
+            "component": "common.media-img"
+        },
+        "number": {
+            "type": "integer",
+            "required": true
+        },
+        "keywords": {
+            "type": "text"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_corp_dynamic_c104s",
+  "info": {
+    "displayName": "[C104] - Category Featured Articles",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "blog_category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::blog-category.blog-category"
+    },
+    "labelPack": {
+      "displayName": "c104-label-pack",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c104-label-pack",
+      "max": 2
+    }
+  }
+}

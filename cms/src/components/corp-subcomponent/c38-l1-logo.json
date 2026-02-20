@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_corp_subcomponent_c38_l1_logos",
+  "info": {
+    "displayName": "C38-l1-logo"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

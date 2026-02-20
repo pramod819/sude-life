@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_corp_dynamic_c93_only_icon_and_texts",
+  "info": {
+    "displayName": "[C93] - Only Icon & Text"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c93-icon-text"
+    }
+  }
+}

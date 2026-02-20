@@ -1,0 +1,216 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-dynamic.c5",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "title",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "subtitle": {
+        "edit": {
+          "label": "Sub Title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Sub Title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "cta": {
+        "edit": {
+          "label": "CTA",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "CTA",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "authors": {
+        "edit": {
+          "label": "Authors",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true,
+          "mainField": "name"
+        },
+        "list": {
+          "label": "Authors",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "backgroundImage": {
+        "edit": {
+          "label": "Background Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Background Image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "bgColor": {
+        "edit": {
+          "label": "Bg Color",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Bg Color",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "quoteImage": {
+        "edit": {
+          "label": "Quote Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Quote Image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "navigationId": {
+        "edit": {
+          "label": "Navigation Id",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Navigation Id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "transparentText": {
+        "edit": {
+          "label": "Transparent Text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Transparent Text",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "title",
+        "subtitle",
+        "cta"
+      ],
+      "edit": [
+        [
+          {
+            "name": "navigationId",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "title",
+            "size": 6
+          },
+          {
+            "name": "subtitle",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "cta",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "authors",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "backgroundImage",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "bgColor",
+            "size": 6
+          },
+          {
+            "name": "quoteImage",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "transparentText",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "corp-dynamic.c5",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_corp_subcomponent_c53_l1_tabs",
+  "info": {
+    "displayName": "C53-l1-tab",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "shortDescription": {
+      "type": "text"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_corp_subcomponent_c12_faq_tabs",
+  "info": {
+    "displayName": "c12-faq-tab"
+  },
+  "options": {},
+  "attributes": {
+    "tabText": {
+      "type": "string"
+    },
+    "faqList": {
+      "displayName": "c12-faq-list",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c12-faq-list"
+    }
+  }
+}

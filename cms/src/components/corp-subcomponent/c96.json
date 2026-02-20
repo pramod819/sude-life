@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_corp_subcomponent_c96s",
+  "info": {
+    "displayName": "c96"
+  },
+  "options": {},
+  "attributes": {
+    "columnOneText": {
+      "type": "string"
+    },
+    "columnTwoText": {
+      "type": "richtext"
+    }
+  }
+}

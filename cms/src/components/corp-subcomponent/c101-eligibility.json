@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_corp_subcomponent_c101_eligibilities",
+  "info": {
+    "displayName": "c101-eligibility"
+  },
+  "options": {},
+  "attributes": {
+    "boldText": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

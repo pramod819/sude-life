@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_corp_subcomponent_fund_nav_labelpacks",
+  "info": {
+    "displayName": "fund-nav-labelpacks",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "lblNetAssetValue",
+        "lblNAV",
+        "lblHighest",
+        "lblLowest",
+        "lblViewDetails",
+        "lblBalancedFund",
+        "lblLatest",
+        "lblSelectProduct",
+        "lblSelect",
+        "lblStartDate",
+        "lblEndDate",
+        "lblSubmit",
+        "lblPerformance",
+        "lblFundHistory",
+        "lblDate",
+        "lblFundName",
+        "lblPlanName",
+        "lblSFIN"
+      ]
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-subcomponent.c2-follow-us",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "title",
+      "defaultSortBy": "title",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "title",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "portalLogo": {
+        "edit": {
+          "label": "portalLogo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "portalLogo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "socialIcons": {
+        "edit": {
+          "label": "socialIcons",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "socialIcons",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "portalLogoLink": {
+        "edit": {
+          "label": "portalLogoLink",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "portalLogoLink",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "title",
+        "portalLogo",
+        "socialIcons"
+      ],
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "socialIcons",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "portalLogo",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "portalLogoLink",
+            "size": 6
+          }
+        ]
+      ]
+    },
+    "uid": "corp-subcomponent.c2-follow-us",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

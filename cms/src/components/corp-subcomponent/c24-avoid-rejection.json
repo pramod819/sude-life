@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_corp_subcomponent_c24_avoid_rejections",
+  "info": {
+    "displayName": "c24-Avoid Claim Rejection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "required": true,
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

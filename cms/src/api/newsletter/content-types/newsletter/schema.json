@@ -1,0 +1,23 @@
+{
+    "kind": "collectionType",
+    "collectionName": "newsletters",
+    "info": {
+        "singularName": "newsletter",
+        "pluralName": "newsletters",
+        "displayName": "[Form] Newsletter",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "email": {
+            "type": "string",
+            "required": true
+        },
+        "page": {
+            "type": "string"
+        }
+    }
+}

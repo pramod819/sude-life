@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_corp_subcomponent_c18_accordions",
+  "info": {
+    "displayName": "c18-accordion",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "variation": {
+      "type": "enumeration",
+      "enum": [
+        "Single column",
+        "Two column"
+      ],
+      "default": "Single column",
+      "required": true
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c18-l2-description"
+    }
+  }
+}

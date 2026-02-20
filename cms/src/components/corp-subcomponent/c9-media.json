@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_corp_subcomponent_c9_medias",
+  "info": {
+    "displayName": "c9Media"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    }
+  }
+}

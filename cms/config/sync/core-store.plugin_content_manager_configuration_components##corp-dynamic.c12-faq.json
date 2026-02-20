@@ -1,0 +1,119 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-dynamic.c12-faq",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "navigationId",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "titleTags": {
+        "edit": {
+          "label": "Title Tags",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Title Tags",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "backgroundImage": {
+        "edit": {
+          "label": "Background Image",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Background Image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "tabList": {
+        "edit": {
+          "label": "Tab List",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Tab List",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "navigationId": {
+        "edit": {
+          "label": "Navigation Id",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Navigation Id",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "titleTags",
+        "backgroundImage",
+        "tabList"
+      ],
+      "edit": [
+        [
+          {
+            "name": "navigationId",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "titleTags",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "backgroundImage",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "tabList",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "uid": "corp-dynamic.c12-faq",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

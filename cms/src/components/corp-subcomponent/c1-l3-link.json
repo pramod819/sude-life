@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_corp_subcomponent_c1_l3_links",
+  "info": {
+    "displayName": "c1-l3-link"
+  },
+  "options": {},
+  "attributes": {
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "Icon Money Bag",
+        "Icon Piggy Bank",
+        "Icon Hand Holding",
+        "Icon Earnings",
+        "Icon Insurance",
+        "Icon Shield Plus",
+        "Icon Health",
+        "Icon Credit",
+        "Icon Group",
+        "Icon Briefcase"
+      ],
+      "required": true
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c1-l4"
+    }
+  }
+}

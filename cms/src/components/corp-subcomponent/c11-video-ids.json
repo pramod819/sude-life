@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_corp_subcomponent_c11_video_ids",
+  "info": {
+    "displayName": "C11-videoIds"
+  },
+  "options": {},
+  "attributes": {
+    "videoid": {
+      "type": "string"
+    }
+  }
+}

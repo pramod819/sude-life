@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_corp_dynamic_c69s",
+  "info": {
+    "displayName": "[C69] - Pure Text Component"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_corp_subcomponent_c95_collections",
+  "info": {
+    "displayName": "c95-collection"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Public",
+        "Voting"
+      ]
+    }
+  }
+}

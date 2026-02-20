@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_corp_subcomponent_c2_texts",
+  "info": {
+    "displayName": "C2-Text"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

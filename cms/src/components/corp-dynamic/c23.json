@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_corp_dynamic_c23s",
+  "info": {
+    "displayName": "[C23] - Document Downloads",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "clainType": {
+      "displayName": "c23claimType",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c23claim-type"
+    }
+  }
+}

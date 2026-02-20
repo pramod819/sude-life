@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_corp_subcomponent_c47_descriptions",
+  "info": {
+    "displayName": "c47-introductionDetails",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "introductionList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c47-introduction"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    }
+  }
+}

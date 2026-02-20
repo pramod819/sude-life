@@ -1,0 +1,72 @@
+{
+  "collectionName": "components_corp_dynamic_c15s",
+  "info": {
+    "displayName": "[C15] - Text + Image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "icons": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.cta",
+      "max": 3
+    },
+    "ad_text": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c15-ad-text",
+      "max": 3
+    },
+    "title": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.title-tags",
+      "max": 5
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "preset": "defaultHtml"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "boldSubtitleText": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "navigationId": {
+      "type": "string"
+    },
+    "navigationButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "corp-subcomponent.c15-navigation-button"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_corp_subcomponent_c2_quick_links",
+  "info": {
+    "displayName": "C2-QuickLinks"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "column": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c2-column",
+      "max": 2
+    }
+  }
+}

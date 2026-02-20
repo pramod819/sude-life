@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_corp_subcomponent_c90_l1_table_columns",
+  "info": {
+    "displayName": "c90-l1-table-column"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "table": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c90-l2-table"
+    }
+  }
+}

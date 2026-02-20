@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_corp_dynamic_c45s",
+  "info": {
+    "displayName": "[C45] - Tenders"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    }
+  }
+}

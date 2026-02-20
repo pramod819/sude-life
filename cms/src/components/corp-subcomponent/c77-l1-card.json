@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_corp_subcomponent_c77_l1_cards",
+  "info": {
+    "displayName": "C77-l1-card"
+  },
+  "options": {},
+  "attributes": {
+    "bgColour": {
+      "type": "string"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "fontColour": {
+      "type": "string"
+    }
+  }
+}

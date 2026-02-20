@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_corp_subcomponent_join_us_professionals",
+  "info": {
+    "displayName": "join-us-professional",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.cta"
+    },
+    "image": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.media-img"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bulletPointList": {
+      "displayName": "join-us-prof-bullet-point",
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.join-us-prof-bullet-point",
+      "max": 10
+    },
+    "formType": {
+      "type": "enumeration",
+      "enum": [
+        "Professional",
+        "Advisor",
+        "Intern"
+      ]
+    }
+  }
+}

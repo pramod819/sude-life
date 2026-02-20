@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_corp_subcomponent_blog_list_components",
+  "info": {
+    "displayName": "Blog List Component"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common.title-tags"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c20-bullet-points"
+    }
+  }
+}

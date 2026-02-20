@@ -1,0 +1,77 @@
+{
+  "key": "plugin_content_manager_configuration_components::corp-subcomponent.c96",
+  "value": {
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "columnOneText",
+      "defaultSortBy": "columnOneText",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "columnOneText": {
+        "edit": {
+          "label": "Column One Text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Column One Text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "columnTwoText": {
+        "edit": {
+          "label": "Column Two Text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "Column Two Text",
+          "searchable": false,
+          "sortable": false
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "columnOneText"
+      ],
+      "edit": [
+        [
+          {
+            "name": "columnOneText",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "columnTwoText",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "uid": "corp-subcomponent.c96",
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

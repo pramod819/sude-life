@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_corp_dynamic_c18s",
+  "info": {
+    "displayName": "[C18] - Accordion (benefits)",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleTags": {
+      "type": "component",
+      "component": "common.title-tags"
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": false
+    },
+    "accordion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c18-accordion"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "bulletPoints": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corp-subcomponent.c18-l1-points"
+    },
+    "shortText": {
+      "type": "text"
+    }
+  }
+}
